@@ -1,0 +1,4376 @@
+fileFormatVersion: 2
+guid: 45d9abd61fc3c8a43bd581d687d92ae1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1664079363521842893
+    second: VisuStella_Interior_D_0
+  - first:
+      213: -2750634487002813553
+    second: VisuStella_Interior_D_1
+  - first:
+      213: -9086643933048760776
+    second: VisuStella_Interior_D_2
+  - first:
+      213: -3713457023020874593
+    second: VisuStella_Interior_D_3
+  - first:
+      213: 6444559717480649214
+    second: VisuStella_Interior_D_4
+  - first:
+      213: 412424212196774004
+    second: VisuStella_Interior_D_5
+  - first:
+      213: 4681902200584240916
+    second: VisuStella_Interior_D_6
+  - first:
+      213: 1092917725326199265
+    second: VisuStella_Interior_D_7
+  - first:
+      213: 8302384102318153749
+    second: VisuStella_Interior_D_8
+  - first:
+      213: -8106851534013532384
+    second: VisuStella_Interior_D_9
+  - first:
+      213: 2453915854559169931
+    second: VisuStella_Interior_D_10
+  - first:
+      213: 123164276770413745
+    second: VisuStella_Interior_D_11
+  - first:
+      213: 8326228117482757468
+    second: VisuStella_Interior_D_12
+  - first:
+      213: -86375713008080612
+    second: VisuStella_Interior_D_13
+  - first:
+      213: 7154677070654482772
+    second: VisuStella_Interior_D_14
+  - first:
+      213: -1510143856078741119
+    second: VisuStella_Interior_D_15
+  - first:
+      213: 1905071320669571864
+    second: VisuStella_Interior_D_16
+  - first:
+      213: 2768406225223263204
+    second: VisuStella_Interior_D_17
+  - first:
+      213: 8445255600130791315
+    second: VisuStella_Interior_D_18
+  - first:
+      213: 1560660752556921544
+    second: VisuStella_Interior_D_19
+  - first:
+      213: -7411118315548026185
+    second: VisuStella_Interior_D_20
+  - first:
+      213: -8966646869238385298
+    second: VisuStella_Interior_D_21
+  - first:
+      213: -4456132637607149906
+    second: VisuStella_Interior_D_22
+  - first:
+      213: -2766069254812141072
+    second: VisuStella_Interior_D_23
+  - first:
+      213: 1973325961665569801
+    second: VisuStella_Interior_D_24
+  - first:
+      213: 5042049556381461708
+    second: VisuStella_Interior_D_25
+  - first:
+      213: 3976940515577416578
+    second: VisuStella_Interior_D_26
+  - first:
+      213: -5595562266136596718
+    second: VisuStella_Interior_D_27
+  - first:
+      213: -4519261241090210672
+    second: VisuStella_Interior_D_28
+  - first:
+      213: 8996625199764434590
+    second: VisuStella_Interior_D_29
+  - first:
+      213: -5627858968880458443
+    second: VisuStella_Interior_D_30
+  - first:
+      213: 7438222606212597923
+    second: VisuStella_Interior_D_31
+  - first:
+      213: 2701666262324362962
+    second: VisuStella_Interior_D_32
+  - first:
+      213: 3134901185659801678
+    second: VisuStella_Interior_D_33
+  - first:
+      213: 2712800716310132343
+    second: VisuStella_Interior_D_34
+  - first:
+      213: -1030640032332662308
+    second: VisuStella_Interior_D_35
+  - first:
+      213: -251888545603722769
+    second: VisuStella_Interior_D_36
+  - first:
+      213: -3468238953104802050
+    second: VisuStella_Interior_D_37
+  - first:
+      213: 2005858971245799330
+    second: VisuStella_Interior_D_38
+  - first:
+      213: 2031971093733124350
+    second: VisuStella_Interior_D_39
+  - first:
+      213: 8226376964927148988
+    second: VisuStella_Interior_D_40
+  - first:
+      213: 3851734972242130867
+    second: VisuStella_Interior_D_41
+  - first:
+      213: -7844910754992337415
+    second: VisuStella_Interior_D_42
+  - first:
+      213: 6553610236436003719
+    second: VisuStella_Interior_D_43
+  - first:
+      213: -454359350690701684
+    second: VisuStella_Interior_D_44
+  - first:
+      213: 2853226052401305001
+    second: VisuStella_Interior_D_45
+  - first:
+      213: -8290479751001407384
+    second: VisuStella_Interior_D_46
+  - first:
+      213: -6133271138908169900
+    second: VisuStella_Interior_D_47
+  - first:
+      213: 294688374834033795
+    second: VisuStella_Interior_D_48
+  - first:
+      213: 330157726012378694
+    second: VisuStella_Interior_D_49
+  - first:
+      213: 1830136711288113351
+    second: VisuStella_Interior_D_50
+  - first:
+      213: -8589732023234657522
+    second: VisuStella_Interior_D_51
+  - first:
+      213: -7537751210041995857
+    second: VisuStella_Interior_D_52
+  - first:
+      213: -6461496314901552595
+    second: VisuStella_Interior_D_53
+  - first:
+      213: 7271197059087746856
+    second: VisuStella_Interior_D_54
+  - first:
+      213: -7612300741197176770
+    second: VisuStella_Interior_D_55
+  - first:
+      213: -3272851033092869694
+    second: VisuStella_Interior_D_56
+  - first:
+      213: -7472623397107497421
+    second: VisuStella_Interior_D_57
+  - first:
+      213: -7188368282259416005
+    second: VisuStella_Interior_D_58
+  - first:
+      213: -4647373651698216172
+    second: VisuStella_Interior_D_59
+  - first:
+      213: 8013349438415756543
+    second: VisuStella_Interior_D_60
+  - first:
+      213: 6403665804095293657
+    second: VisuStella_Interior_D_61
+  - first:
+      213: 5937887441728964811
+    second: VisuStella_Interior_D_62
+  - first:
+      213: 4641821945843029358
+    second: VisuStella_Interior_D_63
+  - first:
+      213: 5477968130996889334
+    second: VisuStella_Interior_D_64
+  - first:
+      213: -4410637881218425203
+    second: VisuStella_Interior_D_65
+  - first:
+      213: -2024586758449772128
+    second: VisuStella_Interior_D_66
+  - first:
+      213: 5520142221275777341
+    second: VisuStella_Interior_D_67
+  - first:
+      213: -8136903425525136943
+    second: VisuStella_Interior_D_68
+  - first:
+      213: -7883649519546405387
+    second: VisuStella_Interior_D_69
+  - first:
+      213: 2473243720992994134
+    second: VisuStella_Interior_D_70
+  - first:
+      213: -4944792344797757599
+    second: VisuStella_Interior_D_71
+  - first:
+      213: 4281416990046237054
+    second: VisuStella_Interior_D_72
+  - first:
+      213: -8870077141021843420
+    second: VisuStella_Interior_D_73
+  - first:
+      213: 7828028570043026217
+    second: VisuStella_Interior_D_74
+  - first:
+      213: -926643998770644721
+    second: VisuStella_Interior_D_75
+  - first:
+      213: 5312618511134333932
+    second: VisuStella_Interior_D_76
+  - first:
+      213: 5102090026028268103
+    second: VisuStella_Interior_D_77
+  - first:
+      213: 1977594521956798727
+    second: VisuStella_Interior_D_78
+  - first:
+      213: -7413230399660834554
+    second: VisuStella_Interior_D_79
+  - first:
+      213: 2714579651105168891
+    second: VisuStella_Interior_D_80
+  - first:
+      213: 7541065242416622245
+    second: VisuStella_Interior_D_81
+  - first:
+      213: -6032366153887994622
+    second: VisuStella_Interior_D_82
+  - first:
+      213: 3802183718819351368
+    second: VisuStella_Interior_D_83
+  - first:
+      213: 3101252483370168857
+    second: VisuStella_Interior_D_84
+  - first:
+      213: 5860848287310855128
+    second: VisuStella_Interior_D_85
+  - first:
+      213: -7558291806990681957
+    second: VisuStella_Interior_D_86
+  - first:
+      213: 6342012862663511282
+    second: VisuStella_Interior_D_87
+  - first:
+      213: -5333171183767845903
+    second: VisuStella_Interior_D_88
+  - first:
+      213: -7936420106299305786
+    second: VisuStella_Interior_D_89
+  - first:
+      213: 264149485920533061
+    second: VisuStella_Interior_D_90
+  - first:
+      213: 8667198361994383927
+    second: VisuStella_Interior_D_91
+  - first:
+      213: 3085600481963167911
+    second: VisuStella_Interior_D_92
+  - first:
+      213: 8445071425386304933
+    second: VisuStella_Interior_D_93
+  - first:
+      213: -265594105355021156
+    second: VisuStella_Interior_D_94
+  - first:
+      213: 3964789913437763493
+    second: VisuStella_Interior_D_95
+  - first:
+      213: -8143185312567936020
+    second: VisuStella_Interior_D_96
+  - first:
+      213: -2965991203958790767
+    second: VisuStella_Interior_D_97
+  - first:
+      213: 65084599414826869
+    second: VisuStella_Interior_D_98
+  - first:
+      213: -2528036524300290026
+    second: VisuStella_Interior_D_99
+  - first:
+      213: -7078904140874635399
+    second: VisuStella_Interior_D_100
+  - first:
+      213: 8412202059969241599
+    second: VisuStella_Interior_D_101
+  - first:
+      213: 1668299460149451066
+    second: VisuStella_Interior_D_102
+  - first:
+      213: 8330124045807241726
+    second: VisuStella_Interior_D_103
+  - first:
+      213: -863064218932315293
+    second: VisuStella_Interior_D_104
+  - first:
+      213: 3174895439068574373
+    second: VisuStella_Interior_D_105
+  - first:
+      213: -1638034467478885143
+    second: VisuStella_Interior_D_106
+  - first:
+      213: -430642500624599460
+    second: VisuStella_Interior_D_107
+  - first:
+      213: -8413274264804735933
+    second: VisuStella_Interior_D_108
+  - first:
+      213: -2411708953059841833
+    second: VisuStella_Interior_D_109
+  - first:
+      213: -1307779777774577051
+    second: VisuStella_Interior_D_110
+  - first:
+      213: -7083895013488206646
+    second: VisuStella_Interior_D_111
+  - first:
+      213: 4161543421063840791
+    second: VisuStella_Interior_D_112
+  - first:
+      213: -1447363867425319511
+    second: VisuStella_Interior_D_113
+  - first:
+      213: -8867471893877560741
+    second: VisuStella_Interior_D_114
+  - first:
+      213: 4828790936520626126
+    second: VisuStella_Interior_D_115
+  - first:
+      213: -7843732038184604722
+    second: VisuStella_Interior_D_116
+  - first:
+      213: -7864054510891571302
+    second: VisuStella_Interior_D_117
+  - first:
+      213: 7845986414294123762
+    second: VisuStella_Interior_D_118
+  - first:
+      213: 1778189836662609526
+    second: VisuStella_Interior_D_119
+  - first:
+      213: -5073513448774379105
+    second: VisuStella_Interior_D_120
+  - first:
+      213: 3350957923743510387
+    second: VisuStella_Interior_D_121
+  - first:
+      213: -4900253776393154412
+    second: VisuStella_Interior_D_122
+  - first:
+      213: -230473922289270416
+    second: VisuStella_Interior_D_123
+  - first:
+      213: 3097560536413361564
+    second: VisuStella_Interior_D_124
+  - first:
+      213: 6417582269787275369
+    second: VisuStella_Interior_D_125
+  - first:
+      213: 1408855123609697930
+    second: VisuStella_Interior_D_126
+  - first:
+      213: 4205799820496665516
+    second: VisuStella_Interior_D_127
+  - first:
+      213: -7067678269051878511
+    second: VisuStella_Interior_D_128
+  - first:
+      213: -4837198387955957402
+    second: VisuStella_Interior_D_129
+  - first:
+      213: -4557561093400367896
+    second: VisuStella_Interior_D_130
+  - first:
+      213: -2121722333183980213
+    second: VisuStella_Interior_D_131
+  - first:
+      213: -1512360859599563913
+    second: VisuStella_Interior_D_132
+  - first:
+      213: -5460102016999337894
+    second: VisuStella_Interior_D_133
+  - first:
+      213: -6887989939555494076
+    second: VisuStella_Interior_D_134
+  - first:
+      213: -7238886451120580706
+    second: VisuStella_Interior_D_135
+  - first:
+      213: -533240185931333608
+    second: VisuStella_Interior_D_136
+  - first:
+      213: -22392649312419627
+    second: VisuStella_Interior_D_137
+  - first:
+      213: -8007974453321083868
+    second: VisuStella_Interior_D_138
+  - first:
+      213: -5973367592371097723
+    second: VisuStella_Interior_D_139
+  - first:
+      213: 7452802843373125047
+    second: VisuStella_Interior_D_140
+  - first:
+      213: -4160867998153918848
+    second: VisuStella_Interior_D_141
+  - first:
+      213: -8081129456445932627
+    second: VisuStella_Interior_D_142
+  - first:
+      213: -7267535581453242571
+    second: VisuStella_Interior_D_143
+  - first:
+      213: -4421382645818854231
+    second: VisuStella_Interior_D_144
+  - first:
+      213: -7953323915164284630
+    second: VisuStella_Interior_D_145
+  - first:
+      213: 3712454819038514639
+    second: VisuStella_Interior_D_146
+  - first:
+      213: -3931758601163077953
+    second: VisuStella_Interior_D_147
+  - first:
+      213: 2221084073086270484
+    second: VisuStella_Interior_D_148
+  - first:
+      213: -4608657243588998082
+    second: VisuStella_Interior_D_149
+  - first:
+      213: -8333276195873883672
+    second: VisuStella_Interior_D_150
+  - first:
+      213: -1610829219103120444
+    second: VisuStella_Interior_D_151
+  - first:
+      213: -7444861649896714898
+    second: VisuStella_Interior_D_152
+  - first:
+      213: -7013481087612909467
+    second: VisuStella_Interior_D_153
+  - first:
+      213: -7335303055145003397
+    second: VisuStella_Interior_D_154
+  - first:
+      213: 8039435400608478744
+    second: VisuStella_Interior_D_155
+  - first:
+      213: -4387912464127324086
+    second: VisuStella_Interior_D_156
+  - first:
+      213: -1620437508080699570
+    second: VisuStella_Interior_D_157
+  - first:
+      213: -6229575357464082394
+    second: VisuStella_Interior_D_158
+  - first:
+      213: 1384458076634714266
+    second: VisuStella_Interior_D_159
+  - first:
+      213: -5857707130639785886
+    second: VisuStella_Interior_D_160
+  - first:
+      213: 1349112506750506550
+    second: VisuStella_Interior_D_161
+  - first:
+      213: -1273120439381623199
+    second: VisuStella_Interior_D_162
+  - first:
+      213: -4621026213932935095
+    second: VisuStella_Interior_D_163
+  - first:
+      213: -6210840812396554073
+    second: VisuStella_Interior_D_164
+  - first:
+      213: -711692106161206802
+    second: VisuStella_Interior_D_165
+  - first:
+      213: -3746041569919870568
+    second: VisuStella_Interior_D_166
+  - first:
+      213: -7421193200559955774
+    second: VisuStella_Interior_D_167
+  - first:
+      213: 6108934560957745848
+    second: VisuStella_Interior_D_168
+  - first:
+      213: 8031850751613379560
+    second: VisuStella_Interior_D_169
+  - first:
+      213: -8687070286791085590
+    second: VisuStella_Interior_D_170
+  - first:
+      213: -6376054319208521496
+    second: VisuStella_Interior_D_171
+  - first:
+      213: 3885788293069525013
+    second: VisuStella_Interior_D_172
+  - first:
+      213: 8115482469623483266
+    second: VisuStella_Interior_D_173
+  - first:
+      213: -6538487483459312108
+    second: VisuStella_Interior_D_174
+  - first:
+      213: 5103124901154910946
+    second: VisuStella_Interior_D_175
+  - first:
+      213: 873345544422420739
+    second: VisuStella_Interior_D_176
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 686
+        width: 122
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331f833b2a008e8e0800000000000000
+      internalID: -1664079363521842893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 697
+        width: 122
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b224fe188c3d9d0800000000000000
+      internalID: -2750634487002813553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 724
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8369b2a6c71c5e180800000000000000
+      internalID: -9086643933048760776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 745
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9449262386277cc0800000000000000
+      internalID: -3713457023020874593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d9361becaf6950800000000000000
+      internalID: 6444559717480649214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 754
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47052c8c2a939b500800000000000000
+      internalID: 412424212196774004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 728
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f71f2ee3579f040800000000000000
+      internalID: 4681902200584240916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_7
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 729
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9cbc271e2da2f00800000000000000
+      internalID: 1092917725326199265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_8
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 729
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51026876a5ef73370800000000000000
+      internalID: 8302384102318153749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_9
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 729
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027fa445b7dae7f80800000000000000
+      internalID: -8106851534013532384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 726
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dc2b3e77f0e0220800000000000000
+      internalID: 2453915854559169931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 720
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc1be5d14195b100800000000000000
+      internalID: 123164276770413745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 680
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ddd6dcb54bc8370800000000000000
+      internalID: 8326228117482757468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_13
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 672
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19aee42fb12dcef0800000000000000
+      internalID: -86375713008080612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 672
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4592efe73e48a4360800000000000000
+      internalID: 7154677070654482772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 689
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18120baf924ea0be0800000000000000
+      internalID: -1510143856078741119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_16
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 678
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b4b4cc54c207a10800000000000000
+      internalID: 1905071320669571864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 659
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a9605bca5b6620800000000000000
+      internalID: 2768406225223263204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_18
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 656
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3979c233933933570800000000000000
+      internalID: 8445255600130791315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_19
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 655
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c29c0b8fa498a510800000000000000
+      internalID: 1560660752556921544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_20
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 654
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba5e55682b662990800000000000000
+      internalID: -7411118315548026185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_21
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 682
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e657da40e22109380800000000000000
+      internalID: -8966646869238385298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 595
+        width: 122
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb667c9f2a822c0800000000000000
+      internalID: -4456132637607149906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 592
+        width: 122
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9fac20ba2fc99d0800000000000000
+      internalID: -2766069254812141072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_24
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 624
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904e12bc189a26b10800000000000000
+      internalID: 1973325961665569801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 633
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc680c8b55f8f540800000000000000
+      internalID: 5042049556381461708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_26
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 625
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc9d3045ee03730800000000000000
+      internalID: 3976940515577416578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 627
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f2958f3c19852b0800000000000000
+      internalID: -5595562266136596718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_28
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 627
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09480a568db5841c0800000000000000
+      internalID: -4519261241090210672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_29
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 634
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6949f3fe6adc70800000000000000
+      internalID: 8996625199764434590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 580
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53552e1e514d5e1b0800000000000000
+      internalID: -5627858968880458443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_31
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 529
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8059b0d00e93760800000000000000
+      internalID: 7438222606212597923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_32
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 531
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de308bc62f3e7520800000000000000
+      internalID: 2701666262324362962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 579
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e401439d408618b20800000000000000
+      internalID: 3134901185659801678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_34
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 579
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7763712e0edc5a520800000000000000
+      internalID: 2712800716310132343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 590
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9b385e95e62b1f0800000000000000
+      internalID: -1030640032332662308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_36
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 580
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1ec4cc3bc118cf0800000000000000
+      internalID: -251888545603722769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_37
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 551
+        width: 108
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efef3043c075edfc0800000000000000
+      internalID: -3468238953104802050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_38
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 557
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7e2aa5b1e36db10800000000000000
+      internalID: 2005858971245799330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 144
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef823d3a1f2033c10800000000000000
+      internalID: 2031971093733124350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 495
+        width: 122
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb350fea346f92270800000000000000
+      internalID: 8226376964927148988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_41
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 536
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7f075cc8c147530800000000000000
+      internalID: 3851734972242130867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_42
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 534
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4a028b37412390800000000000000
+      internalID: -7844910754992337415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_43
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 534
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb12b99c913fa50800000000000000
+      internalID: 6553610236436003719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_44
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 554
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e14bde39ac1b9f0800000000000000
+      internalID: -454359350690701684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_45
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 552
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a515454af1b89720800000000000000
+      internalID: 2853226052401305001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_46
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 535
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8600eff579c42fc80800000000000000
+      internalID: -8290479751001407384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_47
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 550
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4591936056e32eaa0800000000000000
+      internalID: -6133271138908169900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_48
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 542
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3847b6df381f61400800000000000000
+      internalID: 294688374834033795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_49
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 544
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e81dad3b4f49400800000000000000
+      internalID: 330157726012378694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_50
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 544
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8cab674a3f56910800000000000000
+      internalID: 1830136711288113351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_51
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 530
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e030d473c342bc880800000000000000
+      internalID: -8589732023234657522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_52
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 532
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad0d201637846790800000000000000
+      internalID: -7537751210041995857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_53
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 540
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d222cc806572456a0800000000000000
+      internalID: -6461496314901552595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_54
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 535
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274ac6633b78e460800000000000000
+      internalID: 7271197059087746856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_55
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 534
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ef7dbeccab5690800000000000000
+      internalID: -7612300741197176770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_56
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 480
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1bab1635f7492d0800000000000000
+      internalID: -3272851033092869694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_57
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 501
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336822bac98eb4890800000000000000
+      internalID: -7472623397107497421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_58
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 500
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1e350229cd3c90800000000000000
+      internalID: -7188368282259416005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_59
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 507
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41394006946318fb0800000000000000
+      internalID: -4647373651698216172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_60
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 505
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd8d19bd2253f60800000000000000
+      internalID: 8013349438415756543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_61
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 481
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d88a69ee146ed850800000000000000
+      internalID: 6403665804095293657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_62
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 481
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc802800b2d976250800000000000000
+      internalID: 5937887441728964811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_63
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 494
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65169067701b6040800000000000000
+      internalID: 4641821945843029358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_64
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6eafaddf6a50c40800000000000000
+      internalID: 5477968130996889334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 499
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e181137344ac2c0800000000000000
+      internalID: -4410637881218425203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_66
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 493
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a944a5e11937e3e0800000000000000
+      internalID: -2024586758449772128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_67
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 489
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3947c07a1c7b9c40800000000000000
+      internalID: 5520142221275777341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_68
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 489
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d14ae51279e31f80800000000000000
+      internalID: -8136903425525136943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_69
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 488
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fde1c50886a79290800000000000000
+      internalID: -7883649519546405387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_70
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 487
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b0c87f0ab25220800000000000000
+      internalID: 2473243720992994134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_71
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 481
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f3240af81906bb0800000000000000
+      internalID: -4944792344797757599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_72
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 482
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71370b8116aa6b30800000000000000
+      internalID: 4281416990046237054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_73
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 399
+        width: 122
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420a41ff5d727e480800000000000000
+      internalID: -8870077141021843420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_74
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 449
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b0601828eb2ac60800000000000000
+      internalID: 7828028570043026217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_75
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 452
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0937045136e323f0800000000000000
+      internalID: -926643998770644721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_76
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 449
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb935f63663ab940800000000000000
+      internalID: 5312618511134333932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_77
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 386
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7a7db8d34ec640800000000000000
+      internalID: 5102090026028268103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_78
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 467
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7015efe6db3d17b10800000000000000
+      internalID: 1977594521956798727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_79
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 467
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c61e7a3aee1990800000000000000
+      internalID: -7413230399660834554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_80
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 467
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd90aa6fcf1ca520800000000000000
+      internalID: 2714579651105168891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_81
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 461
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa94a32ee37a860800000000000000
+      internalID: 7541065242416622245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_82
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 459
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20daa62a1fab84ca0800000000000000
+      internalID: -6032366153887994622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 144
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b400b82f114c430800000000000000
+      internalID: 3802183718819351368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_84
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 452
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912b316d3bcd90b20800000000000000
+      internalID: 3101252483370168857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_85
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 447
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbbe97177ae55150800000000000000
+      internalID: 5860848287310855128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_86
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 452
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b983397a5ad8b1790800000000000000
+      internalID: -7558291806990681957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_87
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 336
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc4400e81b530850800000000000000
+      internalID: 6342012862663511282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_88
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 414
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30b219015ccf5b0800000000000000
+      internalID: -5333171183767845903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_89
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 414
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c013c756fb2cd190800000000000000
+      internalID: -7936420106299305786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_90
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 410
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a35e3de827aa300800000000000000
+      internalID: 264149485920533061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 404
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d58c4df2184870800000000000000
+      internalID: 8667198361994383927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_92
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 401
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a050364a4142da20800000000000000
+      internalID: 3085600481963167911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_93
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 390
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d3fca7bbe23570800000000000000
+      internalID: 8445071425386304933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_94
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 390
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9450ef719b605cf0800000000000000
+      internalID: -265594105355021156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_95
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 390
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7728f7b63c50730800000000000000
+      internalID: 3964789913437763493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_96
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 389
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebb5384a189dfe80800000000000000
+      internalID: -8143185312567936020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_97
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 396
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1956a19e6bea6d6d0800000000000000
+      internalID: -2965991203958790767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_98
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 386
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577287c291a37e000800000000000000
+      internalID: 65084599414826869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_99
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 387
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6183edddc2c9aecd0800000000000000
+      internalID: -2528036524300290026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_100
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 357
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9772024803ea2cd90800000000000000
+      internalID: -7078904140874635399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_101
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 354
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1a64b24352eb470800000000000000
+      internalID: 8412202059969241599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_102
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 354
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a391f2d158df62710800000000000000
+      internalID: 1668299460149451066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_103
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 339
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c74d4fab8a9370800000000000000
+      internalID: 8330124045807241726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_104
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 339
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b70346aa7c504f0800000000000000
+      internalID: -863064218932315293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_105
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 363
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2b0bc949e7f0c20800000000000000
+      internalID: 3174895439068574373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_106
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 363
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec231c94588449e0800000000000000
+      internalID: -1638034467478885143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_107
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 364
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56b5156dec060af0800000000000000
+      internalID: -430642500624599460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_108
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 371
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344c060b1ab0e3b80800000000000000
+      internalID: -8413274264804735933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_109
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 310
+        width: 122
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d82d372c73e78ed0800000000000000
+      internalID: -2411708953059841833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_110
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 310
+        width: 122
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a9e459835d9dde0800000000000000
+      internalID: -1307779777774577051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_111
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 346
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accdfde6403f0bd90800000000000000
+      internalID: -7083895013488206646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_112
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 242
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714cfd151b5c0c930800000000000000
+      internalID: 4161543421063840791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_113
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 308
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d0652b3ee9ebe0800000000000000
+      internalID: -1447363867425319511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 305
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aeaad5b4960f480800000000000000
+      internalID: -8867471893877560741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_115
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 291
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf00f1d5cf430340800000000000000
+      internalID: 4828790936520626126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_116
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 297
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbe7a6e447752390800000000000000
+      internalID: -7843732038184604722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_117
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 241
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97efff76144dd290800000000000000
+      internalID: -7864054510891571302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_118
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 309
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4ca80f21b82ec60800000000000000
+      internalID: 7845986414294123762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_119
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 304
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6761c753c366da810800000000000000
+      internalID: 1778189836662609526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_120
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 144
+        width: 32
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d2a226624799b0800000000000000
+      internalID: -5073513448774379105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_121
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 270
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f230e3a7ef08e20800000000000000
+      internalID: 3350957923743510387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_122
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 255
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d1dc272dcefbb0800000000000000
+      internalID: -4900253776393154412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_123
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 262
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07105f350313dccf0800000000000000
+      internalID: -230473922289270416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_124
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 244
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95df2375eebcfa20800000000000000
+      internalID: 3097560536413361564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_125
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 248
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96004839215df0950800000000000000
+      internalID: 6417582269787275369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_126
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 224
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ebebe35424d8310800000000000000
+      internalID: 1408855123609697930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_127
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 224
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabfa1947a00e5a30800000000000000
+      internalID: 4205799820496665516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_128
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 224
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934a6a7f009aed90800000000000000
+      internalID: -7067678269051878511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_129
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 244
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610bc9d1b1dedcb0800000000000000
+      internalID: -4837198387955957402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_130
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 248
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eceab1255a40c0c0800000000000000
+      internalID: -4557561093400367896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_131
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 154
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d4e8287c02e82e0800000000000000
+      internalID: -2121722333183980213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_132
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7731d5f9fc3030be0800000000000000
+      internalID: -1512360859599563913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_133
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 217
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a505c57f422d934b0800000000000000
+      internalID: -5460102016999337894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_134
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 221
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4479454e4a1f860a0800000000000000
+      internalID: -6887989939555494076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_135
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 210
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d19f302f4a8b90800000000000000
+      internalID: -7238886451120580706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_136
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 212
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810899940ec8998f0800000000000000
+      internalID: -533240185931333608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_137
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 192
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0472c010270bff0800000000000000
+      internalID: -22392649312419627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_138
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 196
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424d46ba9a5fdd090800000000000000
+      internalID: -8007974453321083868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_139
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fe3efa2d55a1da0800000000000000
+      internalID: -5973367592371097723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_140
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdb64c03bcad6760800000000000000
+      internalID: 7452802843373125047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_141
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 145
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086beb4d990a146c0800000000000000
+      internalID: -4160867998153918848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_142
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 177
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3894339f0adf80800000000000000
+      internalID: -8081129456445932627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_143
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 177
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa7fac4e6842b90800000000000000
+      internalID: -7267535581453242571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4f3ebb8e714a2c0800000000000000
+      internalID: -4421382645818854231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_145
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 97
+        width: 42
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a298305a90e10a190800000000000000
+      internalID: -7953323915164284630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd4a7d0df9458330800000000000000
+      internalID: 3712454819038514639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_147
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 101
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6861332669f69c0800000000000000
+      internalID: -3931758601163077953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_148
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 105
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cb5985230e2de10800000000000000
+      internalID: 2221084073086270484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_149
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 115
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc85897a2ca00c0800000000000000
+      internalID: -4608657243588998082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_150
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 106
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9f7b193714a5c80800000000000000
+      internalID: -8333276195873883672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_151
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 110
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e9891c5f25a9e0800000000000000
+      internalID: -1610829219103120444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_152
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 113
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d4af326c98ea890800000000000000
+      internalID: -7444861649896714898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 81
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56889ed1c1c1bae90800000000000000
+      internalID: -7013481087612909467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_154
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 80
+        width: 89
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b769e364cb4c33a90800000000000000
+      internalID: -7335303055145003397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_155
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 15
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816f7ffe6efc19f60800000000000000
+      internalID: 8039435400608478744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_156
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 71
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409e2eacd00b13c0800000000000000
+      internalID: -4387912464127324086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_157
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 74
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47712efbac0389e0800000000000000
+      internalID: -1620437508080699570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_158
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 65
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62883d4d73a1c89a0800000000000000
+      internalID: -6229575357464082394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_159
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 59
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a909b381945963310800000000000000
+      internalID: 1384458076634714266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_160
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26061ff666e35bea0800000000000000
+      internalID: -5857707130639785886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_161
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63696ee4da209b210800000000000000
+      internalID: 1349112506750506550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_162
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 35
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e7e56a4b7f45ee0800000000000000
+      internalID: -1273120439381623199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_163
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 58
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94852c44421dedfb0800000000000000
+      internalID: -4621026213932935095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_164
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 4
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8da940039aec9a0800000000000000
+      internalID: -6210840812396554073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_165
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 36
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9cfc6dccf8f16f0800000000000000
+      internalID: -711692106161206802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_166
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 18
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899541f1a03630cc0800000000000000
+      internalID: -3746041569919870568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_167
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0641f6a10a20990800000000000000
+      internalID: -7421193200559955774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_168
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 21
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba4efddd9b47c450800000000000000
+      internalID: 6108934560957745848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_169
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 23
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3aeda34bdd67f60800000000000000
+      internalID: 8031850751613379560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_170
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 10
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae177f8a993517780800000000000000
+      internalID: -8687070286791085590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_171
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e02bf2e064b387a0800000000000000
+      internalID: -6376054319208521496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_172
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 4
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510d7c06dd71de530800000000000000
+      internalID: 3885788293069525013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_173
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 15
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b41d6fe4cff9070800000000000000
+      internalID: 8115482469623483266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_174
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 15
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416e114b640a245a0800000000000000
+      internalID: -6538487483459312108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_175
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2f9c16f01f1d640800000000000000
+      internalID: 5103124901154910946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VisuStella_Interior_D_176
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 111
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301f77d352fbe1c00800000000000000
+      internalID: 873345544422420739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
