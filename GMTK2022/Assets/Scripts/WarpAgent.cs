@@ -25,7 +25,9 @@ public class WarpAgent : MonoBehaviour {
             NavMeshAgent agent = target.GetComponent<NavMeshAgent> ();
             if (agent != null) {
                 endPoint.warping = true;
-                agent.Warp (endPoint.landPoint.position);
+                if (!agent.Warp (endPoint.landPoint.position)) {
+                    agent.transform.position = endPoint.landPoint.position;
+                }
             }
         };
     }
@@ -33,7 +35,9 @@ public class WarpAgent : MonoBehaviour {
         NavMeshAgent agent = target.GetComponent<NavMeshAgent> ();
         if (agent != null) {
             warping = true;
-            agent.Warp (landPoint.position);
+            if (!agent.Warp (landPoint.position)) {
+                agent.transform.position = landPoint.position;
+            }
         }
     }
     void ActivateTrigger (GameObject target) {
