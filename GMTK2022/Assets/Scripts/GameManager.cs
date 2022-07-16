@@ -44,6 +44,9 @@ public class GameManager : MonoBehaviour {
     public TypeWriterQueue m_thoughtWriter;
     public InkStringtableManager m_inkStringtableManager;
 
+    public Transform m_normalWorldStart;
+    public Transform m_darkWorldStart;
+
     [SerializeField]
     private GameState currentState;
     public float lateInitWait = 0.1f;
@@ -242,6 +245,23 @@ public class GameManager : MonoBehaviour {
             DiceRoller.RollD6 (targetNumber);
         }
     }
+    public void Ink_QueryDie (object[] input) {
+        // Very lol
+        InkWriter.main.story.variablesState["hasDieNr1"] = UIManager.instance.QueryDie (1);
+        InkWriter.main.story.variablesState["hasDieNr2"] = UIManager.instance.QueryDie (2);
+        InkWriter.main.story.variablesState["hasDieNr3"] = UIManager.instance.QueryDie (3);
+        InkWriter.main.story.variablesState["hasDieNr4"] = UIManager.instance.QueryDie (4);
+        InkWriter.main.story.variablesState["hasDieNr5"] = UIManager.instance.QueryDie (5);
+        InkWriter.main.story.variablesState["hasDieNr6"] = UIManager.instance.QueryDie (6);
+    }
+    public void Ink_DestroyDie (object[] input) {
+        int activationNumber = (int) input[1];
+        if (!activationNumbers.Contains (activationNumber)) {
+            activationNumbers.Add (activationNumber);
+            int targetNumber = (int) input[0];
+            UIManager.instance.DestroyDie (targetNumber);
+        }
+    }
     void WaitForDieRollKnot (int targetNumber) {
         if (ink_targetKnot != "") {
             InkWriter.main.story.variablesState["diceRollResult"] = targetNumber;
@@ -259,16 +279,34 @@ public class GameManager : MonoBehaviour {
         if (m_gameIsNormal) {
             m_normalHealth.ChangeHealth (-amount);
             if (m_normalHealth.m_currentHealth < 1) {
-                Player.Kill ();
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToDarkWorld ()));
             }
         } else {
             m_darkHealth.ChangeHealth (-amount);
             if (m_darkHealth.m_currentHealth < 1) {
-                Player.Kill ();
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToLightWorld ()));
             }
         }
         UIManager.instance.UpdatePlayerHealth ();
     }
+
+    public void SwitchToDarkWorld () {
+        UIManager.instance.LoadDarkWorld ();
+        m_gameIsNormal = false;
+        UIManager.instance.UpdatePlayerHealth ();
+        UIManager.instance.FlipRolledDice ();
+        Player.transform.Find ("Avatar").GetComponent<SpriteRenderer> ().color = Color.red;
+        Player.Resurrect ();
+        Player.navMeshAgent.Warp (m_darkWorldStart.position);
+    }
+
+    public void SwitchToLightWorld () {
+        UIManager.instance.m_loadingScreen.SetActive (true);
+        ActionWaiter (1f, new System.Action ((() => Restart ())));
+    }
+
     public BasicAgent Player {
         get {
             if (player == null) {

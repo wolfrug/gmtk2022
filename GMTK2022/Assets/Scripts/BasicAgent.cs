@@ -82,6 +82,11 @@ public class BasicAgent : MonoBehaviour {
         animator.SetTrigger ("die");
         navMeshAgent.enabled = false;
     }
+    public void Resurrect () {
+        animator.SetBool ("dead", false);
+        animator.SetTrigger ("resurrect");
+        navMeshAgent.enabled = true;
+    }
 
     // Update is called once per frame
     void Update () {

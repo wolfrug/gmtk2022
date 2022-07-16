@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour {
 
     public static UIManager instance;
     public Canvas m_mainCanvas;
-
+    public GameObject m_loadingScreen;
     public Transform m_rolledDiceParent;
     public GameObject m_UIDiePrefab;
 
@@ -41,6 +41,66 @@ public class UIManager : MonoBehaviour {
         m_spawnedUIDie.Add (script);
     }
 
+    public bool QueryDie (int dieNumber) {
+        foreach (UIDie die in m_spawnedUIDie) {
+            if (die.m_value == dieNumber) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public void DestroyDie (int dieNumber) {
+        UIDie targetDie = null;
+        foreach (UIDie die in m_spawnedUIDie) {
+            if (die.m_value == dieNumber) {
+                targetDie = die;
+                break;
+            }
+        }
+        if (targetDie != null) {
+            m_spawnedUIDie.Remove (targetDie);
+            Destroy (targetDie.gameObject);
+        }
+    }
+
+    public void FlipRolledDice () { // Flips the rolled dice to the 'upside down' versions
+        foreach (UIDie die in m_spawnedUIDie) {
+            switch (die.m_value) {
+                case 1:
+                    {
+                        die.SetValue (6);
+                        break;
+                    }
+                case 2:
+                    {
+                        die.SetValue (5);
+                        break;
+                    }
+                case 3:
+                    {
+                        die.SetValue (4);
+                        break;
+                    }
+                case 4:
+                    {
+                        die.SetValue (3);
+                        break;
+                    }
+                case 5:
+                    {
+                        die.SetValue (2);
+                        break;
+                    }
+                case 6:
+                    {
+                        die.SetValue (1);
+                        break;
+                    }
+            }
+        }
+
+    }
+
     public void UpdatePlayerHealth () {
         foreach (GameObject trg in m_healthObjectsNormal) {
             trg.SetActive (false);
@@ -59,6 +119,11 @@ public class UIManager : MonoBehaviour {
             }
             m_healthObjectText.SetText (m_darkHealthObject.m_healthName);
         }
+    }
+
+    public void LoadDarkWorld () {
+        m_loadingScreen.SetActive (true);
+        GameManager.instance.ActionWaiter (1f, new System.Action (() => m_loadingScreen.SetActive (false)));
     }
 
     // Update is called once per frame

@@ -1,13 +1,24 @@
 VAR debug = true
+VAR isNormalWorld = true
 VAR activationNumber = 0
 VAR diceKnotTarget = ""
 VAR nextDiceTarget = -1
 VAR diceRollResult = -1
+VAR hasDie = false
+
+VAR hasDieNr1 = false
+VAR hasDieNr2 = false
+VAR hasDieNr3 = false
+VAR hasDieNr4 = false
+VAR hasDieNr5 = false
+VAR hasDieNr6 = false
 
 EXTERNAL XT_DamagePlayer(x,y)
 EXTERNAL XT_StartNarrative()
 EXTERNAL XT_StopNarrative()
 EXTERNAL XT_RollDie(x,y,z)
+EXTERNAL XT_QueryDie()
+EXTERNAL XT_DestroyDie(x, y)
 
 ==start
 The beginning!
@@ -34,15 +45,47 @@ You have reached a place of options! Aaa!
 + [{diceRollResult!=2: {DisableButton()}} Pick 2]
 
 + [{diceRollResult!=3: {DisableButton()}} Pick 3]
-
+{DamagePlayer(1)}
 + [{diceRollResult!=4: {DisableButton()}} Pick 4]
 
 + [{diceRollResult!=5: {DisableButton()}} Pick 5]
 
 + [{diceRollResult!=6: {DisableButton()}} Pick 6]
 
++ [Just die.]
+{DamagePlayer(1)}
 - Well that was fun.
+
 + [OOps]
+->DONE
+
+==testPreDarkOptions
+{StartNarrative()}
+Dark options coming up!
+~diceKnotTarget = "testDarkOptions"
+Let's goooo!
+->DONE
+
+==testDarkOptions
+{QueryDice()}
+Let's see which options you have.
+
++ [{not hasDieNr1: {DisableButton()}} Pick 1]
+{DestroyDie(1)}
++ [{not hasDieNr2: {DisableButton()}} Pick 2]
+{DestroyDie(2)}
++ [{not hasDieNr3: {DisableButton()}} Pick 3]
+{DestroyDie(3)}
++ [{not hasDieNr4: {DisableButton()}} Pick 4]
+{DestroyDie(4)}
++ [{not hasDieNr5: {DisableButton()}} Pick 5]
+{DestroyDie(5)}
++ [{not hasDieNr6: {DisableButton()}} Pick 6]
+{DestroyDie(6)}
++ [Just die.]
+{DamagePlayer(1)}
+- Well now.
++ [Hup.]
 ->DONE
 
 ===GetNextDiceTarget===
@@ -65,6 +108,12 @@ You have reached a place of options! Aaa!
 // Use -1 for fully random. Targetnknot is the string we go to after
 ~activationNumber++
 {XT_RollDie(targetNumber, targetKnot, activationNumber)}
+==function QueryDice()==
+{XT_QueryDie()}
+
+==function DestroyDie(targetNumber)==
+~activationNumber++
+{XT_DestroyDie(targetNumber, activationNumber)}
 
 ==function XT_DamagePlayer(amount, actNr)
 [Damage player for {amount}!]
@@ -75,6 +124,11 @@ You have reached a place of options! Aaa!
 ==function XT_RollDie(targetNr, targetKnot, actNr)
 [Try to roll the die with target number {targetNr}]
 
+==function XT_QueryDie()
+[Updates list of which dice we have]
+
+==function XT_DestroyDie(number, actNr)
+[Destroys die with number {number}]
 
 // gENERIC FUNCTIONS
 

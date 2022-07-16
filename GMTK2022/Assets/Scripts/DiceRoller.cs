@@ -34,8 +34,8 @@ public class DiceRoller : MonoBehaviour {
     }
 
     public void HideDie () {
-        m_diceAnimator.enabled = false;
-        m_d6.GetComponent<MeshRenderer> ().enabled = false;
+        m_diceAnimator.enabled = true;
+        m_diceAnimator.SetInteger ("rollNumber", -1);
     }
 
     IEnumerator RollDie (int targetNumber = -1) {

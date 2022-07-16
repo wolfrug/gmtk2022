@@ -13,4 +13,11 @@ public class TriggerMethodHelper : MonoBehaviour {
         int targetNumber = (int) InkWriter.main.story.variablesState["nextDiceTarget"];
         TriggerDiceRoll (targetNumber);
     }
+    public void TriggerSetKnot (string targetKnot) {
+        InkWriter.main.GoToKnot (targetKnot);
+    }
+    public void TriggerInkSetKnot () {
+        string targetKnot = (string) InkWriter.main.story.variablesState["diceKnotTarget"];
+        TriggerSetKnot (targetKnot);
+    }
 }
