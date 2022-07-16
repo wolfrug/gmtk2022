@@ -9,6 +9,11 @@ public class UIManager : MonoBehaviour {
     public static UIManager instance;
     public Canvas m_mainCanvas;
 
+    public Transform m_rolledDiceParent;
+    public GameObject m_UIDiePrefab;
+
+    public List<UIDie> m_spawnedUIDie = new List<UIDie> { };
+
     public TextMeshProUGUI m_healthObjectText;
     public List<GameObject> m_healthObjectsNormal = new List<GameObject> { };
     public PlayerHealth m_normalHealthObject;
@@ -27,6 +32,13 @@ public class UIManager : MonoBehaviour {
         m_darkHealthObject.ResetHealth ();
         m_normalHealthObject.ResetHealth ();
         UpdatePlayerHealth ();
+    }
+
+    public void SpawnNewRolledDie (int value) {
+        GameObject newRolledDie = Instantiate (m_UIDiePrefab, m_rolledDiceParent);
+        UIDie script = newRolledDie.GetComponent<UIDie> ();
+        script.SetValue (value);
+        m_spawnedUIDie.Add (script);
     }
 
     public void UpdatePlayerHealth () {

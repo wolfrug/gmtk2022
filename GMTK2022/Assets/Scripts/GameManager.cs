@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour {
     public float lateInitWait = 0.1f;
     private Dictionary<GameStates, GameState> gameStateDict = new Dictionary<GameStates, GameState> { };
     private BasicAgent player;
+    private DiceRoller diceRoller;
 
     void Awake () {
         if (instance == null) {
@@ -64,6 +65,7 @@ public class GameManager : MonoBehaviour {
         if (initOnStart) {
             Invoke ("Init", 1f); // uncomment if not going via mainmenu
         };
+        DiceRoller.m_diceRolledEvent.AddListener (WaitForDieRollKnot);
         //AudioManager.instance.PlayMusic ("MusicBG");
     }
 
@@ -206,6 +208,7 @@ public class GameManager : MonoBehaviour {
     }
 
     List<int> activationNumbers = new List<int> { };
+    string ink_targetKnot = "";
     public void Ink_DamagePlayer (object[] input) {
         int activationNumber = (int) input[1];
         if (!activationNumbers.Contains (activationNumber)) {
@@ -222,6 +225,36 @@ public class GameManager : MonoBehaviour {
         Debug.Log ("Ending narrative from ink");
         SetState (GameStates.GAME);
     }
+
+    public void TriggerRollDie (int targetNumber) {
+        // Trigger from a trigger at the end of a chat
+        SetState (GameStates.NARRATIVE_INGAME);
+        ink_targetKnot = (string) InkWriter.main.story.variablesState["diceKnotTarget"];
+        DiceRoller.RollD6 (targetNumber);
+    }
+    public void Ink_RollDie (object[] input) {
+        int activationNumber = (int) input[2];
+        if (!activationNumbers.Contains (activationNumber)) {
+            SetState (GameStates.NARRATIVE_INGAME);
+            activationNumbers.Add (activationNumber);
+            int targetNumber = (int) input[0];
+            ink_targetKnot = (string) input[1];
+            DiceRoller.RollD6 (targetNumber);
+        }
+    }
+    void WaitForDieRollKnot (int targetNumber) {
+        if (ink_targetKnot != "") {
+            InkWriter.main.story.variablesState["diceRollResult"] = targetNumber;
+            UIManager.instance.SpawnNewRolledDie (targetNumber);
+            ActionWaiter (1f, new System.Action (() => GoToKnotAfterDieRoll ()));
+        }
+    }
+    void GoToKnotAfterDieRoll () {
+        InkWriter.main.GoToKnot (ink_targetKnot);
+        ink_targetKnot = "";
+        DiceRoller.HideDie ();
+    }
+
     public void DamagePlayer (int amount) {
         if (m_gameIsNormal) {
             m_normalHealth.ChangeHealth (-amount);
@@ -244,6 +277,37 @@ public class GameManager : MonoBehaviour {
             };
             return player;
         }
+    }
+    public DiceRoller DiceRoller {
+        get {
+            if (diceRoller == null) {
+                diceRoller = GameObject.FindObjectOfType<DiceRoller> ();
+                //mover.targetAgent = player.navMeshAgent;
+            };
+            return diceRoller;
+        }
+    }
+
+    public void ActionWaiter (float timeToWait, System.Action callBack) {
+        StartCoroutine (ActionWaiterCoroutine (timeToWait, callBack));
+    }
+    IEnumerator ActionWaiterCoroutine (float timeToWait, System.Action callBack) {
+        yield return new WaitForSeconds (timeToWait);
+        callBack.Invoke ();
+    }
+
+    public void DelayActionUntil (System.Func<bool> condition, System.Action callBack) {
+        StartCoroutine (DelayActionCoroutine (condition, callBack));
+    }
+    IEnumerator DelayActionCoroutine (System.Func<bool> condition, System.Action callBack) {
+
+        bool outvar = false;
+        while (!outvar) {
+            outvar = condition ();
+            yield return new WaitForSeconds (0.1f);
+        };
+        Debug.Log ("Delayed action finished?!");
+        callBack.Invoke ();
     }
 
 }

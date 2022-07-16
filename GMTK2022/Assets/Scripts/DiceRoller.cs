@@ -14,37 +14,50 @@ public class DiceRoller : MonoBehaviour {
     public Vector3 m_originPoint = new Vector3 (0, 2, 2);
     public Vector3 m_force = new Vector3 (5, 20, 5);
 
-    public DiceRolled m_diceRolledEvent;
+    public int m_lastResult = -1;
 
+    public DiceRolled m_diceRolledEvent;
     private Coroutine m_diceRollCoroutine = null;
     // Start is called before the first frame update
     void Start () {
-
+        m_diceRolledEvent.AddListener ((x) => m_lastResult = x);
     }
 
     public void RollD6 (int targetNumber = -1) { // -1 or 0 for a real physics roll
+        m_lastResult = -1;
         if (m_diceRollCoroutine == null) {
-            m_diceRollCoroutine = StartCoroutine (RollDie ());
+            m_diceRollCoroutine = StartCoroutine (RollDie (targetNumber));
         } else {
             StopCoroutine (m_diceRollCoroutine);
-            m_diceRollCoroutine = StartCoroutine (RollDie ());
+            m_diceRollCoroutine = StartCoroutine (RollDie (targetNumber));
         }
+    }
+
+    public void HideDie () {
+        m_diceAnimator.enabled = false;
+        m_d6.GetComponent<MeshRenderer> ().enabled = false;
     }
 
     IEnumerator RollDie (int targetNumber = -1) {
         if (targetNumber < 1) {
             RollD6_Physics ();
+            yield return new WaitForSeconds (1f);
+            yield return new WaitUntil (() => !m_script.rolling);
+            Debug.Log ("Rolled dice, result: " + m_script.value);
+            m_diceRolledEvent.Invoke (m_script.value);
         } else {
             m_diceAnimator.enabled = true;
             m_diceAnimator.SetInteger ("rollNumber", targetNumber);
-            m_script.value = targetNumber;
+            yield return new WaitForSeconds (2f);
+            m_diceRolledEvent.Invoke (targetNumber);
         }
-        yield return new WaitForSeconds (1f);
-        yield return new WaitUntil (() => !m_script.rolling);
-        m_diceRolledEvent.Invoke (m_script.value);
+
     }
 
     [NaughtyAttributes.Button]
+    void RollD6_Physics_Button () {
+        RollD6 ();
+    }
     void RollD6_Physics () {
         m_diceAnimator.enabled = false;
         m_d6.GetComponent<MeshRenderer> ().enabled = true;
@@ -58,38 +71,32 @@ public class DiceRoller : MonoBehaviour {
 
     [NaughtyAttributes.Button]
     void Roll1 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 1);
+        RollD6 (1);
     }
 
     [NaughtyAttributes.Button]
     void Roll2 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 2);
+        RollD6 (2);
     }
 
     [NaughtyAttributes.Button]
     void Roll3 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 3);
+        RollD6 (3);
     }
 
     [NaughtyAttributes.Button]
     void Roll4 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 4);
+        RollD6 (4);
     }
 
     [NaughtyAttributes.Button]
     void Roll5 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 5);
+        RollD6 (5);
     }
 
     [NaughtyAttributes.Button]
     void Roll6 () {
-        m_diceAnimator.enabled = true;
-        m_diceAnimator.SetInteger ("rollNumber", 6);
+        RollD6 (6);
     }
 
     // Update is called once per frame
