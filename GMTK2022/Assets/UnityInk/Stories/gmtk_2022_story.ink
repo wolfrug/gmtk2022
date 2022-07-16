@@ -2,6 +2,8 @@ VAR debug = true
 VAR activationNumber = 0
 
 EXTERNAL XT_DamagePlayer(x, y)
+EXTERNAL XT_StartNarrative()
+EXTERNAL XT_StopNarrative()
 
 ==start
 The beginning!
@@ -14,6 +16,7 @@ Many lines.
 ->DONE
 
 ==testPreOptionsText
+{StartNarrative()}
 So there will be options soon.
 Get ready lol.
 ->DONE
@@ -41,7 +44,15 @@ You have reached a place of options! Aaa!
 {XT_DamagePlayer(amount, activationNumber)}
 ~activationNumber++
 {debug: [Damaging player for {amount}!]}
+==function StartNarrative()
+{XT_StartNarrative()}
+==function StopNarrative()
+{XT_StopNarrative()}
 
 ==function XT_DamagePlayer(amount, actNr)
 [Damage player for {amount}!]
+==function XT_StartNarrative()
+[Set to Narrative State]
+==function XT_StopNarrative()
+[Set to Game State]
 

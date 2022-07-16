@@ -14,6 +14,7 @@ public enum GameStates {
     LATE_INIT = 1100,
     GAME = 2000,
     NARRATIVE = 3000,
+    NARRATIVE_INGAME = 3001,
     INVENTORY = 4000,
     DEFEAT = 5000,
     WIN = 6000,
@@ -212,6 +213,14 @@ public class GameManager : MonoBehaviour {
             int damageAmount = (int) input[0];
             DamagePlayer (damageAmount);
         };
+    }
+    public void Ink_StartNarrative (object[] input) {
+        Debug.Log ("Starting narrative from ink");
+        SetState (GameStates.NARRATIVE_INGAME);
+    }
+    public void Ink_StopNarrative (object[] input) {
+        Debug.Log ("Ending narrative from ink");
+        SetState (GameStates.GAME);
     }
     public void DamagePlayer (int amount) {
         if (m_gameIsNormal) {
