@@ -35,7 +35,9 @@ public class DiceRoller : MonoBehaviour {
         if (targetNumber < 1) {
             RollD6_Physics ();
         } else {
+            m_diceAnimator.enabled = true;
             m_diceAnimator.SetInteger ("rollNumber", targetNumber);
+            m_script.value = targetNumber;
         }
         yield return new WaitForSeconds (1f);
         yield return new WaitUntil (() => !m_script.rolling);
@@ -45,6 +47,7 @@ public class DiceRoller : MonoBehaviour {
     [NaughtyAttributes.Button]
     void RollD6_Physics () {
         m_diceAnimator.enabled = false;
+        m_d6.GetComponent<MeshRenderer> ().enabled = true;
         m_d6.transform.position = m_followTransform.position + m_originPoint;
         m_d6.transform.rotation = Random.rotation;
 
@@ -55,31 +58,37 @@ public class DiceRoller : MonoBehaviour {
 
     [NaughtyAttributes.Button]
     void Roll1 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 1);
     }
 
     [NaughtyAttributes.Button]
     void Roll2 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 2);
     }
 
     [NaughtyAttributes.Button]
     void Roll3 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 3);
     }
 
     [NaughtyAttributes.Button]
     void Roll4 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 4);
     }
 
     [NaughtyAttributes.Button]
     void Roll5 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 5);
     }
 
     [NaughtyAttributes.Button]
     void Roll6 () {
+        m_diceAnimator.enabled = true;
         m_diceAnimator.SetInteger ("rollNumber", 6);
     }
 
