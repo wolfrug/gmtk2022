@@ -88,6 +88,13 @@ Let's see which options you have.
 + [Hup.]
 ->DONE
 
+==testGetDWHealth
+Something something more health for you.
+->DONE
+==testGetLWHealth
+Something something less embarrassment.
+->DONE
+
 ===GetNextDiceTarget===
 {->SetNextDiceTarget(1)->|->SetNextDiceTarget(2)->|->SetNextDiceTarget(3)->|->SetNextDiceTarget(4)->|->SetNextDiceTarget(5)->|->SetNextDiceTarget(6)->|->SetNextDiceTarget(-1)->}
 ->->

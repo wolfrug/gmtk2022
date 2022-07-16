@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1071256640826597916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3275133218048360067, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647260835, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: activateEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: TriggerAddLWHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647260835, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: activateEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: testGetLWHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261022, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218647261023, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_Name
+      value: Trigger_Light_Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218721645570, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218721645570, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218721645570, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218721645570, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275133218721645570, guid: dec6e63ede21b834faa698c34e795a67,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dec6e63ede21b834faa698c34e795a67, type: 3}

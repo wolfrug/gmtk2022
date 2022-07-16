@@ -20,4 +20,11 @@ public class TriggerMethodHelper : MonoBehaviour {
         string targetKnot = (string) InkWriter.main.story.variablesState["diceKnotTarget"];
         TriggerSetKnot (targetKnot);
     }
+
+    public void TriggerAddLWHealth (int amount) {
+        GameManager.instance.ChangeNormalHealth (amount);
+    }
+    public void TriggerAddDWHealth (int amount) {
+        GameManager.instance.ChangeDarkHealth (amount);
+    }
 }
