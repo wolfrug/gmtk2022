@@ -311,6 +311,8 @@ public class GameManager : MonoBehaviour {
         UIManager.instance.FlipRolledDice ();
         Player.transform.Find ("Avatar").gameObject.SetActive (false);
         Player.transform.Find ("AvatarDark").gameObject.SetActive (true);
+        Player.speed = 6f;
+        Player.GetComponent<Attack> ().enabled = true;
         Player.Resurrect ();
         Player.navMeshAgent.Warp (m_darkWorldStart.position);
     }
@@ -325,8 +327,10 @@ public class GameManager : MonoBehaviour {
         m_darkWorldStart.transform.position = Player.transform.position;
         UIManager.instance.UpdatePlayerHealth ();
         UIManager.instance.FlipRolledDice ();
+         Player.speed = 3.5f;
         Player.transform.Find ("Avatar").gameObject.SetActive (true);
         Player.transform.Find ("AvatarDark").gameObject.SetActive (false);
+        Player.GetComponent<Attack> ().enabled = false;
         Player.Resurrect ();
         Player.navMeshAgent.Warp (m_normalWorldStart.position);
     }

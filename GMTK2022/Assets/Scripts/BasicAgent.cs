@@ -3,11 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public enum Facing {
+    None = 0000,
+    Right = 1000,
+
+    Left = 2000,
+
+    Down = 3000,
+
+    Up = 4000,
+}
+
 public class BasicAgent : MonoBehaviour {
     public Animator animator;
     public NavMeshAgent navMeshAgent;
     public float speed = 0f;
     public bool useKeyboardForMovement = false;
+
+    public Facing m_currentFacing = Facing.None;
     private Coroutine autoAction;
     // Start is called before the first frame update
     void Start () {
@@ -104,6 +117,20 @@ public class BasicAgent : MonoBehaviour {
                 // Vector3 moveDestination = transform.position + movement;
                 // navMeshAgent.destination = moveDestination;
             };
+        }
+        // Set the facing...sort of 
+        if (navMeshAgent.velocity.magnitude > 0.1f) {
+            if (navMeshAgent.velocity.x > 0f) {
+                m_currentFacing = Facing.Right;
+            } else {
+                m_currentFacing = Facing.Left;
+            }
+            if (navMeshAgent.velocity.z > navMeshAgent.velocity.magnitude / 2f) {
+                m_currentFacing = Facing.Up;
+            }
+            if (navMeshAgent.velocity.z < -(navMeshAgent.velocity.magnitude / 2f)) {
+                m_currentFacing = Facing.Down;
+            }
         }
     }
 }
