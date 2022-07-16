@@ -279,32 +279,56 @@ public class GameManager : MonoBehaviour {
         if (m_gameIsNormal) {
             m_normalHealth.ChangeHealth (-amount);
             if (m_normalHealth.m_currentHealth < 1) {
-                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill ()));
                 DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToDarkWorld ()));
             }
         } else {
             m_darkHealth.ChangeHealth (-amount);
             if (m_darkHealth.m_currentHealth < 1) {
-                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill ()));
                 DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToLightWorld ()));
             }
         }
         UIManager.instance.UpdatePlayerHealth ();
     }
 
+    public void ChangeNormalHealth (int amount) { // e.g. in the dark world
+        m_normalHealth.ChangeHealth (amount);
+    }
+    public void ChangeDarkHealth (int amount) { // e.g. in the dark world
+        m_darkHealth.ChangeHealth (amount);
+    }
+
     public void SwitchToDarkWorld () {
         UIManager.instance.LoadDarkWorld ();
+        if (m_darkHealth.m_currentHealth <= 0) {
+            Defeat ();
+            return;
+        }
         m_gameIsNormal = false;
+        m_normalWorldStart.transform.position = Player.transform.position;
         UIManager.instance.UpdatePlayerHealth ();
         UIManager.instance.FlipRolledDice ();
-        Player.transform.Find ("Avatar").GetComponent<SpriteRenderer> ().color = Color.red;
+        Player.transform.Find ("Avatar").gameObject.SetActive (false);
+        Player.transform.Find ("AvatarDark").gameObject.SetActive (true);
         Player.Resurrect ();
         Player.navMeshAgent.Warp (m_darkWorldStart.position);
     }
 
     public void SwitchToLightWorld () {
-        UIManager.instance.m_loadingScreen.SetActive (true);
-        ActionWaiter (1f, new System.Action ((() => Restart ())));
+        UIManager.instance.LoadDarkWorld ();
+        if (m_normalHealth.m_currentHealth <= 0) {
+            Defeat ();
+            return;
+        }
+        m_gameIsNormal = true;
+        m_darkWorldStart.transform.position = Player.transform.position;
+        UIManager.instance.UpdatePlayerHealth ();
+        UIManager.instance.FlipRolledDice ();
+        Player.transform.Find ("Avatar").gameObject.SetActive (true);
+        Player.transform.Find ("AvatarDark").gameObject.SetActive (false);
+        Player.Resurrect ();
+        Player.navMeshAgent.Warp (m_normalWorldStart.position);
     }
 
     public BasicAgent Player {
