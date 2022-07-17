@@ -139,11 +139,17 @@ public class GameManager : MonoBehaviour {
 
         currentState = gameStateDict[GameStates.DEFEAT];
         currentState.evtStart.Invoke (currentState);
+        ActionWaiter (2f, new System.Action (() => SceneManager.LoadScene ("defeatscene")));
+
     }
 
     public void Restart () {
         Time.timeScale = 1f;
         SceneManager.LoadScene (SceneManager.GetActiveScene ().name, LoadSceneMode.Single);
+    }
+
+    public static void LoadGameScene () {
+        SceneManager.LoadScene ("SampleScene");
     }
 
     public void DualLoadScenes () {
@@ -280,13 +286,13 @@ public class GameManager : MonoBehaviour {
             m_normalHealth.ChangeHealth (-amount);
             if (m_normalHealth.m_currentHealth < 1) {
                 DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill ()));
-                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToDarkWorld ()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToDarkWorldWaiter ()));
             }
         } else {
             m_darkHealth.ChangeHealth (-amount);
             if (m_darkHealth.m_currentHealth < 1) {
                 DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => Player.Kill ()));
-                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToLightWorld ()));
+                DelayActionUntil (() => GameState == GameStates.GAME, new System.Action (() => SwitchToLightWorldWaiter ()));
             }
         }
         UIManager.instance.UpdatePlayerHealth ();
@@ -299,6 +305,10 @@ public class GameManager : MonoBehaviour {
         m_darkHealth.ChangeHealth (amount);
     }
 
+    public void SwitchToDarkWorldWaiter () {
+        SetState (GameStates.NARRATIVE_INGAME);
+        ActionWaiter (3f, new System.Action (() => SwitchToDarkWorld ()));
+    }
     public void SwitchToDarkWorld () {
         UIManager.instance.LoadDarkWorld ();
         if (m_darkHealth.m_currentHealth <= 0) {
@@ -315,8 +325,12 @@ public class GameManager : MonoBehaviour {
         Player.GetComponent<Attack> ().enabled = true;
         Player.Resurrect ();
         Player.navMeshAgent.Warp (m_darkWorldStart.position);
+        SetState (GameStates.GAME);
     }
-
+    public void SwitchToLightWorldWaiter () {
+        SetState (GameStates.NARRATIVE_INGAME);
+        ActionWaiter (3f, new System.Action (() => SwitchToLightWorld ()));
+    }
     public void SwitchToLightWorld () {
         UIManager.instance.LoadDarkWorld ();
         if (m_normalHealth.m_currentHealth <= 0) {
@@ -333,6 +347,7 @@ public class GameManager : MonoBehaviour {
         Player.GetComponent<Attack> ().enabled = false;
         Player.Resurrect ();
         Player.navMeshAgent.Warp (m_normalWorldStart.position);
+        SetState (GameStates.GAME);
     }
 
     public BasicAgent Player {

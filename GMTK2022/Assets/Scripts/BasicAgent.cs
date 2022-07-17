@@ -129,12 +129,13 @@ public class BasicAgent : MonoBehaviour {
             } else {
                 m_currentFacing = Facing.Left;
             }
-            if (navMeshAgent.velocity.z > navMeshAgent.velocity.magnitude / 2f) {
-                m_currentFacing = Facing.Up;
-            }
-            if (navMeshAgent.velocity.z < -(navMeshAgent.velocity.magnitude / 2f)) {
-                m_currentFacing = Facing.Down;
-            }
+            /* if (navMeshAgent.velocity.z > navMeshAgent.velocity.magnitude / 2f) {
+                 m_currentFacing = Facing.Up;
+             }
+             if (navMeshAgent.velocity.z < -(navMeshAgent.velocity.magnitude / 2f)) {
+                 m_currentFacing = Facing.Down;
+             }
+             */ // cannot attack up or down lol
         }
     }
 }

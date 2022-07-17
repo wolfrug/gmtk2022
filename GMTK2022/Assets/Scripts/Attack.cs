@@ -7,19 +7,30 @@ public class Attack : MonoBehaviour {
     public GenericTrigger m_attackTrigger;
     public NPCType m_type;
     public float m_attackRange = 5f;
+    public float m_attackSpeed = 2f;
+    private float m_nextAttack;
     public int m_attackDamage = 1;
     public float m_pushbackForce = 50f;
     public bool m_useKeyboardToAttack = false;
     public bool m_active = true;
     public KeyCode keyCode;
+
+    private bool m_multiAttackPrevention = false;
+    public GameObject m_hitPrefab;
     // Start is called before the first frame update
     void Start () {
         m_attackTrigger.triggerEntered.AddListener (TriggerDoDamage);
+        m_nextAttack = m_attackSpeed;
     }
 
     // Attack directions: 0 up 1 down 2 right 3 left
-    public void AttackForward () {
-        m_attachedAgent.animator.SetTrigger ("attack");
+    public bool AttackForward () {
+        if (m_nextAttack <= 0f) {
+            m_attachedAgent.animator.SetTrigger ("attack");
+            m_nextAttack = m_attackSpeed;
+            return true;
+        }
+        return false;
     }
 
     void OnCollisionEnter (Collision collision) {
@@ -27,7 +38,10 @@ public class Attack : MonoBehaviour {
             Debug.DrawRay (contact.point, contact.normal, Color.white);
         }
         Debug.Log ("Attack collided with something.", gameObject);
-        TriggerDoDamage (collision.gameObject);
+        if (!m_multiAttackPrevention) {
+            m_multiAttackPrevention = true;
+            TriggerDoDamage (collision.gameObject);
+        };
     }
 
     public void TriggerDoDamage (GameObject target) {
@@ -40,13 +54,24 @@ public class Attack : MonoBehaviour {
                     NPC enemyNPC = enemyAgent.GetComponent<NPC> ();
                     if (enemyNPC != null) {
                         enemyNPC.Damage (m_attackDamage);
+                        if (!enemyAgent.m_isDead) {
+                            Vector3 moveDirection = Vector3.right;
+                            if (m_attachedAgent.m_currentFacing == Facing.Left || m_attachedAgent.m_currentFacing == Facing.Down) {
+                                moveDirection = Vector3.left;
+                            }
+                            enemyAgent.navMeshAgent.Move (moveDirection * 5f);
+                        };
                     } else {
                         enemyAgent.Kill ();
                     };
-                    enemyNPC.GetComponent<Rigidbody> ().AddForce (m_attachedAgent.transform.forward * m_pushbackForce, ForceMode.Impulse);
+
+                }
+                if (m_hitPrefab != null) {
+                    Instantiate (m_hitPrefab, (enemyAgent.transform.position + ((Vector3) Random.insideUnitCircle * 2f)), Quaternion.identity);
                 }
             }
         };
+        m_multiAttackPrevention = false;
     }
     int GetAttackAnimDirection () {
         switch (m_attachedAgent.m_currentFacing) {
@@ -75,6 +100,7 @@ public class Attack : MonoBehaviour {
                     }
                 }
             };
+            m_nextAttack -= Time.deltaTime;
         }
         // If the attached agent is dead, we're no longer active
         m_active = !m_attachedAgent.m_isDead;

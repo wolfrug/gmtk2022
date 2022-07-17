@@ -244,11 +244,13 @@ MonoBehaviour:
   m_attackTrigger: {fileID: 8214399722107211232}
   m_type: 0
   m_attackRange: 5
+  m_attackSpeed: 2
   m_attackDamage: 1
   m_pushbackForce: 50
   m_useKeyboardToAttack: 0
   m_active: 1
   keyCode: 0
+  m_hitPrefab: {fileID: 0}
 --- !u!114 &478736912412676780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,11 +305,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -891669908
-      Data2: 1296421921
-      Data3: -845163357
-      Data4: -971204381
-    Path: event:/SFX/PCFootsteps
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   PlayEvent: 0
   StopEvent: 0

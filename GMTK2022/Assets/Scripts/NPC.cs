@@ -75,17 +75,20 @@ public class NPC : MonoBehaviour {
         }
     }
 
-    public void NPCAttack () {
+    public bool NPCAttack () {
         // If they're hostile
-        if (type == NPCType.HOSTILE) {
+        if (type == NPCType.HOSTILE && GameManager.instance.GameState == GameStates.GAME) {
             if (npcattack != null) {
                 if (Vector3.Distance (currentFollowTarget.position, transform.position) < npcattack.m_attackRange) {
-                    npcattack.AttackForward ();
+                    return npcattack.AttackForward ();
                 }
             }
         }
+        return false;
     }
 
+    float attackWaitTime = 1f;
+    float attackWaitTimeLeft = 0f;
     // Update is called once per frame
     void Update () {
         if (active) {
@@ -97,14 +100,22 @@ public class NPC : MonoBehaviour {
                     Vector3 randomPos = ((Vector3) Random.insideUnitCircle * randomWanderDistance) + (Vector3) randomWanderCenter.position;
                     targetAgent.navMeshAgent.SetDestination (randomPos);
                     IsFollowing = false;
+                    attackWaitTimeLeft = 0f;
                     randomWanderWaitTimeLeft = Random.Range (randomWanderWaitTime.x, randomWanderWaitTime.y);
                 } else {
                     randomWanderWaitTimeLeft -= Time.deltaTime;
                 }
             } else if (currentFollowTarget != null && Vector3.Distance (currentFollowTarget.position, transform.position) <= followDistance) {
-                targetAgent.navMeshAgent.SetDestination (currentFollowTarget.position);
+                if (!NPCAttack ()) { // only move closer if the attack fails
+                    if (attackWaitTimeLeft <= 0f) {
+                        targetAgent.navMeshAgent.SetDestination (currentFollowTarget.position);
+                    };
+                    attackWaitTimeLeft -= Time.deltaTime;
+                } else { // otherwise we stop and wait for a few seconds
+                    attackWaitTimeLeft = attackWaitTime;
+                    targetAgent.navMeshAgent.SetDestination (transform.position);
+                }
                 IsFollowing = true;
-                NPCAttack ();
             }
         }
     }

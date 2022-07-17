@@ -135,6 +135,7 @@ MonoBehaviour:
   speed: 1
   useKeyboardForMovement: 1
   m_currentFacing: 0
+  m_isDead: 0
 --- !u!95 &2235758152209811675
 Animator:
   serializedVersion: 3
@@ -169,7 +170,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 2
+  m_CollisionDetection: 3
 --- !u!65 &1367942397328369667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -178,7 +179,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2235758152209811655}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.1, y: 3.4380012, z: 1}
@@ -199,9 +200,14 @@ MonoBehaviour:
   m_attackTrigger: {fileID: 357548839}
   m_type: 0
   m_attackRange: 5
+  m_attackSpeed: 0.25
   m_attackDamage: 1
+  m_pushbackForce: 15
   m_useKeyboardToAttack: 1
+  m_active: 1
   keyCode: 32
+  m_hitPrefab: {fileID: 7201055638950598668, guid: 3ffa1bd953af77946b33f2ea3671f691,
+    type: 3}
 --- !u!114 &8448990084149932645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,7 +527,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7520091740659472267}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
