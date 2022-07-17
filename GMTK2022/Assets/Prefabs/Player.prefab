@@ -69,6 +69,8 @@ GameObject:
   - component: {fileID: 4143134485647630614}
   - component: {fileID: 1367942397328369667}
   - component: {fileID: 2076940571}
+  - component: {fileID: 8448990084149932645}
+  - component: {fileID: 3711899019494682023}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -200,6 +202,50 @@ MonoBehaviour:
   m_attackDamage: 1
   m_useKeyboardToAttack: 1
   keyCode: 32
+--- !u!114 &8448990084149932645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235758152209811655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -891669908
+      Data2: 1296421921
+      Data3: -845163357
+      Data4: -971204381
+    Path: event:/SFX/PCFootsteps
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &3711899019494682023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235758152209811655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccf4640229b0e9439da6e922dce846e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: 
+  eventEmitter: {fileID: 8448990084149932645}
 --- !u!1 &2235758152935471263
 GameObject:
   m_ObjectHideFlags: 0

@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 817467937516155499}
   - component: {fileID: 478736912412676781}
   - component: {fileID: 478736912412676780}
+  - component: {fileID: 3062536712144477286}
   m_Layer: 10
   m_Name: NPCFriendly
   m_TagString: NPC
@@ -269,6 +270,20 @@ MonoBehaviour:
   randomWanderWaitTime: {x: 0, y: 5}
   followPlayer: 0
   active: 1
+--- !u!114 &3062536712144477286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478736912412676783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccf4640229b0e9439da6e922dce846e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: 
+  eventEmitter: {fileID: 0}
 --- !u!1 &8214399722107211235
 GameObject:
   m_ObjectHideFlags: 0
