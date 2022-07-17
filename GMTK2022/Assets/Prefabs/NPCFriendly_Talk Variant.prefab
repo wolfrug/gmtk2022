@@ -172,6 +172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 8775391973666085357, guid: 96d9be07b1f99c84881236d01ed4aa53,
+        type: 3}
+      propertyPath: activateEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: RandomPerson
+      objectReference: {fileID: 0}
     - target: {fileID: 8775391973736391500, guid: 96d9be07b1f99c84881236d01ed4aa53,
         type: 3}
       propertyPath: m_AnchorMax.y

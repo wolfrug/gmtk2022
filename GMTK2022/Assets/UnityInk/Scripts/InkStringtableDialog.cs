@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [System.Serializable]
 public class DialogSnippet {
@@ -17,11 +18,16 @@ public class DialogSnippet {
     }
 }
 
+[System.Serializable]
+public class DialogFinished : UnityEvent<InkStringtableDialog> { }
+
 public class InkStringtableDialog : MonoBehaviour {
     [NaughtyAttributes.ReorderableList]
     public List<DialogSnippet> m_orderedDialog = new List<DialogSnippet> { };
     public bool m_running = false;
     public int m_currentIndex = -1;
+
+    public DialogFinished m_dialogFinishedEvent;
     // Start is called before the first frame update
     void Start () {
         int indexStart = 0;
@@ -71,5 +77,6 @@ public class InkStringtableDialog : MonoBehaviour {
     public void EndDialog () {
         m_running = false;
         m_currentIndex = -1;
+        m_dialogFinishedEvent.Invoke (this);
     }
 }

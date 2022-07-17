@@ -1,3 +1,5 @@
+INCLUDE gmtk_2022_conversations.ink
+
 VAR debug = true
 VAR isNormalWorld = true
 VAR activationNumber = 0
@@ -21,8 +23,7 @@ EXTERNAL XT_QueryDie()
 EXTERNAL XT_DestroyDie(x, y)
 
 ==start
-The beginning!
-->DONE
+->introtalk
 
 ==testString
 Hahahahha!
