@@ -25,8 +25,14 @@ public class InkStringtableDialog : MonoBehaviour {
     // Start is called before the first frame update
     void Start () {
         int indexStart = 0;
+        List<TypeWriterQueue> addedListeners = new List<TypeWriterQueue> { };
+        // Add all the listeners pre-emptively.
         foreach (DialogSnippet snippet in m_orderedDialog) {
-            snippet.talker.m_queueEndedEvent.AddListener ((x) => ContinueDialog (snippet));
+            if (!addedListeners.Contains (snippet.talker)) {
+                snippet.talker.m_queueEndedEvent.AddListener ((x) => ContinueDialog (snippet));
+                addedListeners.Add (snippet.talker);
+            };
+            Debug.Log ("Added dialogsnippet for knot " + snippet.inkknot + " at index " + indexStart);
             snippet.Index = indexStart;
             indexStart++;
         }
@@ -49,21 +55,21 @@ public class InkStringtableDialog : MonoBehaviour {
     void ContinueDialog (DialogSnippet writer) {
         if (m_running) {
             // So any one of the typewriters has just finished...
-            if (writer.Index >= m_orderedDialog.Count) {
+            if (m_currentIndex + 1 >= m_orderedDialog.Count) {
                 // Finished!
                 EndDialog ();
                 return;
             }
-            m_currentIndex = writer.Index + 1;
+            m_currentIndex++;
+            Debug.Log ("Finished writing, now going to index " + m_currentIndex);
             if (m_currentIndex < m_orderedDialog.Count) {
                 m_orderedDialog[m_currentIndex].talker.CreateAndPlayTypeWriterQueueFromKnot (m_orderedDialog[m_currentIndex].inkknot);
-            } else {
-                Debug.LogWarning ("Err, what? Index " + m_currentIndex + " count: " + m_orderedDialog.Count + " writer index: " + writer.Index);
-            }
+            };
         };
     }
 
     public void EndDialog () {
         m_running = false;
+        m_currentIndex = -1;
     }
 }
