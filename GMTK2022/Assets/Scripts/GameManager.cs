@@ -15,7 +15,7 @@ public enum GameStates {
     GAME = 2000,
     NARRATIVE = 3000,
     NARRATIVE_INGAME = 3001,
-    INVENTORY = 4000,
+    LOADING = 4000,
     DEFEAT = 5000,
     WIN = 6000,
     PAUSE = 7000,
@@ -162,6 +162,9 @@ public class GameManager : MonoBehaviour {
         Time.timeScale = 1f;
         SceneManager.LoadScene ("mainmenu");
     }
+    public void Quit () {
+        Application.Quit ();
+    }
 
     /* [NaughtyAttributes.Button]
     public void SaveGame () {
@@ -306,7 +309,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void SwitchToDarkWorldWaiter () {
-        SetState (GameStates.NARRATIVE_INGAME);
+        SetState (GameStates.LOADING);
         ActionWaiter (3f, new System.Action (() => SwitchToDarkWorld ()));
     }
     public void SwitchToDarkWorld () {
@@ -328,7 +331,7 @@ public class GameManager : MonoBehaviour {
         SetState (GameStates.GAME);
     }
     public void SwitchToLightWorldWaiter () {
-        SetState (GameStates.NARRATIVE_INGAME);
+        SetState (GameStates.LOADING);
         ActionWaiter (3f, new System.Action (() => SwitchToLightWorld ()));
     }
     public void SwitchToLightWorld () {
