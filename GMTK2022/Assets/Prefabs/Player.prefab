@@ -313,7 +313,7 @@ MonoBehaviour:
   m_attackRange: 5
   m_attackSpeed: 0.25
   m_attackDamage: 1
-  m_pushbackForce: 15
+  m_pushbackForce: 5
   m_useKeyboardToAttack: 1
   m_active: 1
   keyCode: 32

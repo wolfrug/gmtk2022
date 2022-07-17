@@ -10,7 +10,7 @@ public class Attack : MonoBehaviour {
     public float m_attackSpeed = 2f;
     private float m_nextAttack;
     public int m_attackDamage = 1;
-    public float m_pushbackForce = 50f;
+    public float m_pushbackForce = 5f;
     public bool m_useKeyboardToAttack = false;
     public bool m_active = true;
     public KeyCode keyCode;
@@ -57,6 +57,13 @@ public class Attack : MonoBehaviour {
             if (enemyAgent != null) {
                 if (enemyAgent == GameManager.instance.Player) { // damage player
                     GameManager.instance.DamagePlayer (m_attackDamage);
+                    if (!enemyAgent.m_isDead) {
+                        Vector3 moveDirection = Vector3.right;
+                        if (m_attachedAgent.m_currentFacing == Facing.Left || m_attachedAgent.m_currentFacing == Facing.Down) {
+                            moveDirection = Vector3.left;
+                        }
+                        enemyAgent.navMeshAgent.Move (moveDirection * m_pushbackForce);
+                    };
                 } else {
                     NPC enemyNPC = enemyAgent.GetComponent<NPC> ();
                     if (enemyNPC != null) {
@@ -67,7 +74,7 @@ public class Attack : MonoBehaviour {
                             if (m_attachedAgent.m_currentFacing == Facing.Left || m_attachedAgent.m_currentFacing == Facing.Down) {
                                 moveDirection = Vector3.left;
                             }
-                            enemyAgent.navMeshAgent.Move (moveDirection * 5f);
+                            enemyAgent.navMeshAgent.Move (moveDirection * m_pushbackForce);
                         };
                     } else {
                         enemyAgent.Kill ();

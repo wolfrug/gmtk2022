@@ -239,6 +239,11 @@ PrefabInstance:
       propertyPath: m_attackRange
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 478736912412676781, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_pushbackForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 478736912412676783, guid: 938700bbaa4d384459b911885898733a,
         type: 3}
       propertyPath: m_Name
