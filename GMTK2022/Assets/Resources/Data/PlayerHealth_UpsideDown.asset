@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48db652640920f4aba2cc2fcfcad4c9, type: 3}
   m_Name: PlayerHealth_UpsideDown
   m_EditorClassIdentifier: 
-  m_startingHealth: 1
-  m_currentHealth: 1
+  m_startingHealth: 8
+  m_currentHealth: 0
   m_healthName: Health
+  m_uiPrefab: {fileID: 4243675612501038307, guid: 07dd0989ce0b72548a1a4c9aae806f9f,
+    type: 3}

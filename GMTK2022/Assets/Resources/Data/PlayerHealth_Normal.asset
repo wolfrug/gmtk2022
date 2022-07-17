@@ -15,3 +15,5 @@ MonoBehaviour:
   m_startingHealth: 1
   m_currentHealth: 0
   m_healthName: Embarrassment
+  m_uiPrefab: {fileID: 2053720133637808310, guid: a53194691dc7ac54295ac0ef580a4951,
+    type: 3}

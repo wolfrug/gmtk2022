@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: b6567667a5c832345a4f8b108eb2f7e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8677194623322135468
+    second: sprite_underworld (1)_0
+  - first:
+      213: -4264249111229638820
+    second: sprite_underworld (1)_1
+  - first:
+      213: -2223241421369116358
+    second: sprite_underworld (1)_2
+  - first:
+      213: -9038588695560745383
+    second: sprite_underworld (1)_3
+  - first:
+      213: -2698630692516699554
+    second: sprite_underworld (1)_4
+  - first:
+      213: -1868857498652754560
+    second: sprite_underworld (1)_5
+  - first:
+      213: -762646431339615983
+    second: sprite_underworld (1)_6
+  - first:
+      213: -6485769434314513188
+    second: sprite_underworld (1)_7
+  - first:
+      213: 1026918212089014514
+    second: sprite_underworld (1)_8
+  - first:
+      213: 2292149800846416242
+    second: sprite_underworld (1)_9
+  - first:
+      213: -8257657436119888710
+    second: sprite_underworld (1)_10
+  - first:
+      213: 7379976024439409132
+    second: sprite_underworld (1)_11
+  - first:
+      213: -8600862032152253063
+    second: sprite_underworld (1)_12
+  - first:
+      213: -1014305238033112483
+    second: sprite_underworld (1)_13
+  - first:
+      213: -4205392636188180975
+    second: sprite_underworld (1)_14
+  - first:
+      213: -8300024728334479941
+    second: sprite_underworld (1)_15
+  - first:
+      213: -8432943211681256460
+    second: sprite_underworld (1)_16
+  - first:
+      213: -8215644250744235953
+    second: sprite_underworld (1)_17
+  - first:
+      213: -4049689279023642175
+    second: sprite_underworld (1)_18
+  - first:
+      213: -7122393979758403939
+    second: sprite_underworld (1)_19
+  - first:
+      213: -7340131290742484379
+    second: sprite_underworld (1)_20
+  - first:
+      213: -6148415250808904490
+    second: sprite_underworld (1)_21
+  - first:
+      213: 8169075818353090712
+    second: sprite_underworld (1)_22
+  - first:
+      213: 3874724738297021218
+    second: sprite_underworld (1)_23
+  - first:
+      213: -3759001163295283679
+    second: sprite_underworld (1)_24
+  - first:
+      213: -3203250450668190441
+    second: sprite_underworld (1)_25
+  - first:
+      213: -6974904298314392872
+    second: sprite_underworld (1)_26
+  - first:
+      213: 5211498616260561571
+    second: sprite_underworld (1)_27
+  - first:
+      213: -3733076725289000011
+    second: sprite_underworld (1)_28
+  - first:
+      213: 4478922365457811523
+    second: sprite_underworld (1)_29
+  - first:
+      213: -2128280273299864353
+    second: sprite_underworld (1)_30
+  - first:
+      213: 508983270394406626
+    second: sprite_underworld (1)_31
+  - first:
+      213: 6400576958977117883
+    second: sprite_underworld (1)_32
+  - first:
+      213: -7392760394815240271
+    second: sprite_underworld (1)_33
+  - first:
+      213: 6286768767419574206
+    second: sprite_underworld (1)_34
+  - first:
+      213: -6574040502346435785
+    second: sprite_underworld (1)_35
+  - first:
+      213: 803928074120506861
+    second: sprite_underworld (1)_36
+  - first:
+      213: 1979306162699341357
+    second: sprite_underworld (1)_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_underworld (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 2559
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45464fdb679649780800000000000000
+      internalID: -8677194623322135468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1974
+        width: 250
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57d16bb60852d4c0800000000000000
+      internalID: -4264249111229638820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1963
+        width: 249
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39fb5dd4b57521e0800000000000000
+      internalID: -2223241421369116358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1970
+        width: 249
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8d3a487b709280800000000000000
+      internalID: -9038588695560745383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1981
+        width: 315
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e526390eea98c8ad0800000000000000
+      internalID: -2698630692516699554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1990
+        width: 266
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d3af0b10c7016e0800000000000000
+      internalID: -1868857498652754560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2057
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11968c28c198a65f0800000000000000
+      internalID: -762646431339615983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_7
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1985
+        width: 254
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4e894001bedf5a0800000000000000
+      internalID: -6485769434314513188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_8
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 2024
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8e1fc4ca8504e00800000000000000
+      internalID: 1026918212089014514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1401
+        width: 254
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279de6b791a5fcf10800000000000000
+      internalID: 2292149800846416242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1399
+        width: 262
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc06331058e66d80800000000000000
+      internalID: -8257657436119888710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_11
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1405
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce94c9be711fa6660800000000000000
+      internalID: 7379976024439409132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1419
+        width: 407
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dab631d8993a880800000000000000
+      internalID: -8600862032152253063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1423
+        width: 356
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e73192c67ce1f0800000000000000
+      internalID: -1014305238033112483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_14
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1415
+        width: 316
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eb5f2bda173a5c0800000000000000
+      internalID: -4205392636188180975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1337
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd4aa82c7360dc80800000000000000
+      internalID: -8300024728334479941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_16
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 1335
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb62b024da28fa80800000000000000
+      internalID: -8432943211681256460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 816
+        width: 569
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d861151b2cfd80800000000000000
+      internalID: -8215644250744235953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_18
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 1266
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c986119e0d9cc7c0800000000000000
+      internalID: -4049689279023642175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_19
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 1272
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e9e16596c282d90800000000000000
+      internalID: -7122393979758403939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 755
+        width: 363
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56290921b7d922a90800000000000000
+      internalID: -7340131290742484379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_21
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 783
+        width: 357
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4e0f3b7e07caaa0800000000000000
+      internalID: -6148415250808904490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 791
+        width: 294
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8906b28dc236e5170800000000000000
+      internalID: 8169075818353090712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_23
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 1178
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223cc9cce99c5c530800000000000000
+      internalID: 3874724738297021218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 751
+        width: 717
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1262187ab5855dbc0800000000000000
+      internalID: -3759001163295283679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_25
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 802
+        width: 466
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7150059cfa4cb83d0800000000000000
+      internalID: -3203250450668190441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_26
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 671
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da10acce79243f90800000000000000
+      internalID: -6974904298314392872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 665
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa86a93166f25840800000000000000
+      internalID: 5211498616260561571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 215
+        width: 569
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3eedd3f72713cc0800000000000000
+      internalID: -3733076725289000011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_29
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 577
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3484aa93924582e30800000000000000
+      internalID: 4478922365457811523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_30
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 190
+        width: 294
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd48d771e54d672e0800000000000000
+      internalID: -2128280273299864353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_31
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 181
+        width: 357
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a9747695401700800000000000000
+      internalID: 508983270394406626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_32
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 154
+        width: 363
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe816d15da63d850800000000000000
+      internalID: 6400576958977117883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 571
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70675e693a76990800000000000000
+      internalID: -7392760394815240271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 201
+        width: 465
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7601f92e61f3750800000000000000
+      internalID: 6286768767419574206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 211
+        width: 716
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7333c9e6ef054c4a0800000000000000
+      internalID: -6574040502346435785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedaae2f250282b00800000000000000
+      internalID: 803928074120506861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_underworld (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e8f69d778e77b10800000000000000
+      internalID: 1979306162699341357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4a16e0c9778ff64bacde16cfb602f20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

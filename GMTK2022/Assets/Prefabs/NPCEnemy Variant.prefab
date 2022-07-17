@@ -35,7 +35,7 @@ PrefabInstance:
     - target: {fileID: 478736912412676783, guid: 938700bbaa4d384459b911885898733a,
         type: 3}
       propertyPath: m_Name
-      value: NPCEnemy
+      value: NPCEnemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 478736912412676785, guid: 938700bbaa4d384459b911885898733a,
         type: 3}
@@ -91,6 +91,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5240769
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.864245
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.4558802
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.07779503
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1.3721228
+      objectReference: {fileID: 0}
+    - target: {fileID: 817467937516155499, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.032145023
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938700bbaa4d384459b911885898733a, type: 3}

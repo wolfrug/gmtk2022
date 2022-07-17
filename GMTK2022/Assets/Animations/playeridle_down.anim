@@ -28,7 +28,7 @@ AnimationClip:
     script: {fileID: 0}
   - curve:
     - time: 0
-      value: {fileID: -3635297002494801589, guid: cca076dd57e93574a87201265318725b,
+      value: {fileID: -8257657436119888710, guid: b6567667a5c832345a4f8b108eb2f7e9,
         type: 3}
     attribute: m_Sprite
     path: AvatarDark
@@ -57,7 +57,7 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -3635297002494801589, guid: cca076dd57e93574a87201265318725b, type: 3}
-    - {fileID: -3635297002494801589, guid: cca076dd57e93574a87201265318725b, type: 3}
+    - {fileID: -8257657436119888710, guid: b6567667a5c832345a4f8b108eb2f7e9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

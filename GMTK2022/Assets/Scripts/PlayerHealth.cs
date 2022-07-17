@@ -8,6 +8,7 @@ public class PlayerHealth : ScriptableObject {
     public int m_startingHealth = 1;
     public int m_currentHealth = 1;
     public string m_healthName = "Embarrassment";
+    public GameObject m_uiPrefab;
 
     public void ResetHealth () {
         m_currentHealth = m_startingHealth;

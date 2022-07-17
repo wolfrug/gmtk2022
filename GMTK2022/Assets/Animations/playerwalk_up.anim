@@ -34,13 +34,13 @@ AnimationClip:
     script: {fileID: 0}
   - curve:
     - time: 0
-      value: {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b,
+      value: {fileID: -4264249111229638820, guid: b6567667a5c832345a4f8b108eb2f7e9,
         type: 3}
     - time: 0.33333334
-      value: {fileID: -4648812290646160779, guid: cca076dd57e93574a87201265318725b,
+      value: {fileID: -9038588695560745383, guid: b6567667a5c832345a4f8b108eb2f7e9,
         type: 3}
     - time: 0.6666667
-      value: {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b,
+      value: {fileID: -4264249111229638820, guid: b6567667a5c832345a4f8b108eb2f7e9,
         type: 3}
     attribute: m_Sprite
     path: AvatarDark
@@ -71,9 +71,9 @@ AnimationClip:
     - {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b, type: 3}
     - {fileID: -4648812290646160779, guid: cca076dd57e93574a87201265318725b, type: 3}
     - {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b, type: 3}
-    - {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b, type: 3}
-    - {fileID: -4648812290646160779, guid: cca076dd57e93574a87201265318725b, type: 3}
-    - {fileID: -1008193543725833384, guid: cca076dd57e93574a87201265318725b, type: 3}
+    - {fileID: -4264249111229638820, guid: b6567667a5c832345a4f8b108eb2f7e9, type: 3}
+    - {fileID: -9038588695560745383, guid: b6567667a5c832345a4f8b108eb2f7e9, type: 3}
+    - {fileID: -4264249111229638820, guid: b6567667a5c832345a4f8b108eb2f7e9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

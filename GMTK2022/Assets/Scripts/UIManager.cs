@@ -16,8 +16,11 @@ public class UIManager : MonoBehaviour {
 
     public TextMeshProUGUI m_healthObjectText;
     public List<GameObject> m_healthObjectsNormal = new List<GameObject> { };
+    public Transform m_normalHealthObjectsParent;
     public PlayerHealth m_normalHealthObject;
     public List<GameObject> m_healthObjectsDark = new List<GameObject> { };
+
+    public Transform m_darkHealthObjectsParent;
     public PlayerHealth m_darkHealthObject;
 
     void Awake () {
@@ -103,19 +106,21 @@ public class UIManager : MonoBehaviour {
 
     public void UpdatePlayerHealth () {
         foreach (GameObject trg in m_healthObjectsNormal) {
-            trg.SetActive (false);
+            Destroy (trg);
         }
+        m_healthObjectsNormal.Clear ();
         foreach (GameObject trg in m_healthObjectsDark) {
-            trg.SetActive (false);
+            Destroy (trg);
         }
+        m_healthObjectsDark.Clear ();
         if (GameManager.instance.m_gameIsNormal) {
             for (int i = 0; i < m_normalHealthObject.m_currentHealth; i++) {
-                m_healthObjectsNormal[i].SetActive (true);
+                m_healthObjectsNormal.Add (Instantiate (m_normalHealthObject.m_uiPrefab, m_normalHealthObjectsParent));
             }
             m_healthObjectText.SetText (m_normalHealthObject.m_healthName);
         } else {
             for (int i = 0; i < m_darkHealthObject.m_currentHealth; i++) {
-                m_healthObjectsDark[i].SetActive (true);
+                m_healthObjectsDark.Add (Instantiate (m_darkHealthObject.m_uiPrefab, m_darkHealthObjectsParent));
             }
             m_healthObjectText.SetText (m_darkHealthObject.m_healthName);
         }
