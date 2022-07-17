@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class BasicAgentDie : UnityEvent<BasicAgent> { }
 
 public enum Facing {
     None = 0000,
@@ -23,6 +27,8 @@ public class BasicAgent : MonoBehaviour {
     public Facing m_currentFacing = Facing.None;
 
     public bool m_isDead = false;
+
+    public BasicAgentDie m_deathEvent;
     private Coroutine autoAction;
     // Start is called before the first frame update
     void Start () {
@@ -97,6 +103,7 @@ public class BasicAgent : MonoBehaviour {
         animator.SetTrigger ("die");
         navMeshAgent.enabled = false;
         m_isDead = true;
+        m_deathEvent.Invoke (this);
     }
     public void Resurrect () {
         animator.SetBool ("dead", false);

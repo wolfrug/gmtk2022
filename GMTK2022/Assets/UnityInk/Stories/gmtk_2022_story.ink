@@ -30,6 +30,24 @@ Hahahahha!
 Many lines.
 ->DONE
 
+==playerTestString
+Woo ain't that something lol.
+<i>Can we do italics? Naw.</i>
+->DONE
+
+==testDialog1
+Hey friend.
+->DONE
+=t2_d1
+Yeah is this a bit of a waste of space?
+->DONE
+=t1_d2
+Kinda lol.
+->DONE
+=t2_d3
+K then.
+->DONE
+
 ==testPreOptionsText
 {StartNarrative()}
 ~diceKnotTarget = "testOptions"

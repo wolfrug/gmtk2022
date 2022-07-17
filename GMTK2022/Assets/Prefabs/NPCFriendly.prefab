@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -3635297002494801589, guid: cca076dd57e93574a87201265318725b,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -180,6 +180,9 @@ MonoBehaviour:
   useKeyboardForMovement: 0
   m_currentFacing: 0
   m_isDead: 0
+  m_deathEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &478736912412676787
 Animator:
   serializedVersion: 3
@@ -289,7 +292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: 
-  eventEmitter: {fileID: 7906124464252242426}
+  eventEmitter1: {fileID: 0}
+  eventEmitter2: {fileID: 0}
+  eventEmitter3: {fileID: 0}
 --- !u!114 &7906124464252242426
 MonoBehaviour:
   m_ObjectHideFlags: 0
