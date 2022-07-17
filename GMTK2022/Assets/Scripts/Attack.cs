@@ -21,7 +21,7 @@ public class Attack : MonoBehaviour {
     public GameObject m_hitPrefab;
     // Start is called before the first frame update
     void Start () {
-        m_attackTrigger.triggerEntered.AddListener (TriggerDoDamage);
+        //m_attackTrigger.triggerEntered.AddListener (TriggerDoDamage);
         m_nextAttack = m_attackSpeed;
     }
 
@@ -35,7 +35,7 @@ public class Attack : MonoBehaviour {
         return false;
     }
 
-    void OnCollisionEnter (Collision collision) {
+    /* void OnCollisionEnter (Collision collision) {
         foreach (ContactPoint contact in collision.contacts) {
             Debug.DrawRay (contact.point, contact.normal, Color.white);
         }
@@ -45,7 +45,12 @@ public class Attack : MonoBehaviour {
             TriggerDoDamage (collision.gameObject);
         };
     }
-
+*/
+    public void AnimTriggerDamage () {
+        foreach (GameObject target in m_attackTrigger.contents) {
+            TriggerDoDamage (target);
+        }
+    }
     public void TriggerDoDamage (GameObject target) {
         if (m_active) {
             BasicAgent enemyAgent = target.GetComponent<BasicAgent> ();
