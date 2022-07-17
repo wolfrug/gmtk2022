@@ -115,7 +115,7 @@ Something something less embarrassment.
 ->DONE
 
 ===GetNextDiceTarget===
-{->SetNextDiceTarget(1)->|->SetNextDiceTarget(2)->|->SetNextDiceTarget(3)->|->SetNextDiceTarget(4)->|->SetNextDiceTarget(5)->|->SetNextDiceTarget(6)->|->SetNextDiceTarget(-1)->}
+{->SetNextDiceTarget(1)->|->SetNextDiceTarget(4)->|->SetNextDiceTarget(3)->|->SetNextDiceTarget(2)->|->SetNextDiceTarget(5)->|->SetNextDiceTarget(6)->|->SetNextDiceTarget(-1)->}
 ->->
 
 =SetNextDiceTarget(newNumber)

@@ -3,6 +3,7 @@
 ==introtalk
 {StartNarrative()}
 ->GetNextDiceTarget->
+~diceKnotTarget = "firstRollResult"
 Today is the day, Avery. I’m going to ask them out.
 
 I’m going to roll the dice, and I’m going to stop being such a coward.
@@ -46,9 +47,17 @@ Fates of old, I beseech you in my quest. Who will be my date to the school dance
 * [Begin thy quest.]
 ->DONE
 
-==RandomPerson
-// Some random barks from random people I guess
-{!~Oh hey Barbara!|Yoooo, sick costume! It’s a costume, right?|You’re such a nerd.|Why are you always in my way?|Get out of my face, Baa-bara.|Dweeb.|Dork.|Geek.|Baaaaa!|Watch out, dork.|Where’s your lunch money?|I’m watching you.|I’m coming to get you, Barbara.|What’s that smell?|Do you hear that high-pitched whining noise? Oh, it’s you, nevermind.|I hear your mother is DTF.|Was that your dad hitting on the teacher in Home Room last week? Gross.|Oh…hey.|Have we met?|What was your name again?|Hi, I guess.|Can I help you?|Did you need something?|Are you always this quiet?|So…do you come here often?|What are you looking at?|You must be new.|Sorry, I’m in a rush.|You look lost.|Hey, how are you?}
+==RandomBully
+// Some random barks from random people I guess. Barks for days.
+{!~You’re such a nerd.|Why are you always in my way?|Get out of my face.|Dweeb.|Dork.|Geek.|Watch out, dork.|Ugh.|Cringe.|Why can’t you just like…disappear or something.|Oh my god, what is wrong with you.|You’ve got something on…oh no, that’s just your face.}
+->DONE
+==RandomStranger
+// Some random barks from random people I guess. Barks for days.
+{!~Oh…hey.|Have we met?|What was your name again?|Hi, I guess.|Can I help you?|Did you need something?|Are you always this quiet?|So…do you come here often?|What are you looking at?|You must be new.|Sorry, I’m in a rush.|You look lost.|I hate math. Do you hate math? Of course you do, everyone hates math.}
+->DONE
+==RandomFriendly
+// Some random barks from random people I guess. Barks for days.
+{!~Oh hey Barbara!|Yoooo, sick costume! It’s a costume, right?|Hey, how are you?|What’s up?|Catch you at the gym later!|Radical game last night, thanks for the invite.|My liege.|Hi Barb. Still on for study group?|Watch out, I hear Jennifer is on the prowl.}
 ->DONE
 
 ==averyChat
@@ -62,4 +71,102 @@ End of the hall, ya dweeb.
 // to be updated as we go, if needed
 {~Hey Barb.|Yo yo.|Maan I just wanna go play some DnD…}
 ->DONE
+
+==skaterBoi
+Heya.
+
+Man, it's hard to get anything done in time.
+
+I'm always so late with everything.
+
+Oh well.
+->DONE
+
+==BullyChat
+{StartNarrative()}
+->GetNextDiceTarget->
+Where exactly do you think you’re going, Nerd?
+
+The gym's occupied, there's nothing for you there.
+
+Why don't you go back to rolling dice or whatever, nerd?
+
+~diceKnotTarget = "bullyRoll"
+
+->DONE
+
+==bullyRoll
+Jennifer. My nemesis. You picked the wrong day to get on my nerves. Why do you always have to be such an ogre? If I get a three or a six, I will tell her a piece of my mind!
+
++ [{diceRollResult!=3&&diceRollResult!=6: {DisableButton()}}Fight back!]
+// We might be able to do this later.
++ [{diceRollResult!=2&&diceRollResult!=5 : {DisableButton()}}Get away!]
+ // Maybe later?
++ [{diceRollResult!=1&&diceRollResult!=4 : {DisableButton()}}Play dead!]
+For some inexplicable reason, you decide to play dead. Within moments, as Jennifer’s laughter echoes through the hall, you find yourself...literally dying.
+{DamagePlayer(1)}
+- 
+
+* [Umm, what just happened?]
+->DONE
+
+==heroicChat
+The ogres have taken the castle - and the Prince!
+
+The fates have given me the strength to retake it!
+
+I will save you, Prince!
+
+(Space to attack)
+->DONE
+
+==useDiceMainDoorPre
+{StartNarrative()}
+Hmph. You will never prevail. Only those blessed by the fates can pass.
+~diceKnotTarget = "useDiceMainDoor"
+Let's goooo!
+->DONE
+
+==useDiceMainDoor
+{QueryDice()}
+Only a Holy Six will grant me passage. The others may...grant me boons.
+
++ [{not hasDieNr1: {DisableButton()}} A one!]
+{DestroyDie(1)}
+Nothing.
++ [{not hasDieNr2: {DisableButton()}} A two.]
+{DestroyDie(2)}
+Nothing.
++ [{not hasDieNr3: {DisableButton()}} A three.]
+{DestroyDie(3)}
+Nothing.
++ [{not hasDieNr4: {DisableButton()}} A four..]
+{DestroyDie(4)}
+Nothing.
++ [{not hasDieNr5: {DisableButton()}} A five?]
+{DestroyDie(5)}
+Nothing.
++ [{not hasDieNr6: {DisableButton()}} A six!]
+{DestroyDie(6)}
+->success
++ [I have nothing.]
+It pains me.
+{DamagePlayer(1)}
+->DONE
+- 
++ [I must try again.]
+->useDiceMainDoor
+
+=success
+#openMainDoor
+Yes! I knew I could do it! I am coming, Prince!
++ [Onwards!]
+->DONE
+
+==getMoreHealth
+#returnToLightWorld
+I feel...stronger. It is time to return.
++ [Return to your world.]
+->DONE
+
 
