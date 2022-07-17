@@ -169,7 +169,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!65 &1367942397328369667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -181,8 +181,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0.9, z: 0}
+  m_Size: {x: 1.1, y: 3.4380012, z: 1}
+  m_Center: {x: 0, y: 1.6190007, z: 0}
 --- !u!114 &2076940571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 357548840}
   - component: {fileID: 357548839}
   - component: {fileID: 799494669728595869}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!1 &8372014398642400509
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +643,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3635297002494801589, guid: cca076dd57e93574a87201265318725b,
+  m_Sprite: {fileID: -8257657436119888710, guid: b6567667a5c832345a4f8b108eb2f7e9,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!54 &1822999213049981329
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4734950913079433418}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 2
 --- !u!1001 &3479740731512739113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36,6 +52,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPCEnemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 478736912412676783, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 478736912412676785, guid: 938700bbaa4d384459b911885898733a,
         type: 3}
@@ -122,5 +143,21 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.032145023
       objectReference: {fileID: 0}
+    - target: {fileID: 2367921727216647038, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8214399722107211235, guid: 938700bbaa4d384459b911885898733a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938700bbaa4d384459b911885898733a, type: 3}
+--- !u!1 &4734950913079433418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8214399722107211235, guid: 938700bbaa4d384459b911885898733a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3479740731512739113}
+  m_PrefabAsset: {fileID: 0}

@@ -21,6 +21,8 @@ public class BasicAgent : MonoBehaviour {
     public bool useKeyboardForMovement = false;
 
     public Facing m_currentFacing = Facing.None;
+
+    public bool m_isDead = false;
     private Coroutine autoAction;
     // Start is called before the first frame update
     void Start () {
@@ -94,11 +96,13 @@ public class BasicAgent : MonoBehaviour {
         animator.SetBool ("dead", true);
         animator.SetTrigger ("die");
         navMeshAgent.enabled = false;
+        m_isDead = true;
     }
     public void Resurrect () {
         animator.SetBool ("dead", false);
         animator.SetTrigger ("resurrect");
         navMeshAgent.enabled = true;
+        m_isDead = false;
     }
 
     // Update is called once per frame

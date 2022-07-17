@@ -18,8 +18,8 @@ TagManager:
   - 2D
   - PlayerLayer
   - NPCLayer
-  - 
-  - 
+  - EnemyWeapon
+  - PlayerWeapon
   - 
   - 
   - 

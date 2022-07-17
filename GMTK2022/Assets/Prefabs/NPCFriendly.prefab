@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 478736912412676781}
   - component: {fileID: 478736912412676780}
   - component: {fileID: 3062536712144477286}
+  - component: {fileID: 7906124464252242426}
   m_Layer: 10
   m_Name: NPCFriendly
   m_TagString: NPC
@@ -178,6 +179,7 @@ MonoBehaviour:
   speed: 1
   useKeyboardForMovement: 0
   m_currentFacing: 0
+  m_isDead: 0
 --- !u!95 &478736912412676787
 Animator:
   serializedVersion: 3
@@ -243,7 +245,9 @@ MonoBehaviour:
   m_type: 0
   m_attackRange: 5
   m_attackDamage: 1
+  m_pushbackForce: 50
   m_useKeyboardToAttack: 0
+  m_active: 1
   keyCode: 0
 --- !u!114 &478736912412676780
 MonoBehaviour:
@@ -283,7 +287,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: 
-  eventEmitter: {fileID: 0}
+  eventEmitter: {fileID: 7906124464252242426}
+--- !u!114 &7906124464252242426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478736912412676783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -891669908
+      Data2: 1296421921
+      Data3: -845163357
+      Data4: -971204381
+    Path: event:/SFX/PCFootsteps
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8214399722107211235
 GameObject:
   m_ObjectHideFlags: 0

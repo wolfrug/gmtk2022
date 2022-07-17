@@ -8,7 +8,9 @@ public class Attack : MonoBehaviour {
     public NPCType m_type;
     public float m_attackRange = 5f;
     public int m_attackDamage = 1;
+    public float m_pushbackForce = 50f;
     public bool m_useKeyboardToAttack = false;
+    public bool m_active = true;
     public KeyCode keyCode;
     // Start is called before the first frame update
     void Start () {
@@ -20,20 +22,31 @@ public class Attack : MonoBehaviour {
         m_attachedAgent.animator.SetTrigger ("attack");
     }
 
-    public void TriggerDoDamage (GameObject target) {
-        BasicAgent enemyAgent = target.GetComponent<BasicAgent> ();
-        if (enemyAgent != null) {
-            if (enemyAgent == GameManager.instance.Player) { // damage player
-                GameManager.instance.DamagePlayer (m_attackDamage);
-            } else {
-                NPC enemyNPC = enemyAgent.GetComponent<NPC> ();
-                if (enemyNPC != null) {
-                    enemyNPC.Damage (m_attackDamage);
-                } else {
-                    enemyAgent.Kill ();
-                };
-            }
+    void OnCollisionEnter (Collision collision) {
+        foreach (ContactPoint contact in collision.contacts) {
+            Debug.DrawRay (contact.point, contact.normal, Color.white);
         }
+        Debug.Log ("Attack collided with something.", gameObject);
+        TriggerDoDamage (collision.gameObject);
+    }
+
+    public void TriggerDoDamage (GameObject target) {
+        if (m_active) {
+            BasicAgent enemyAgent = target.GetComponent<BasicAgent> ();
+            if (enemyAgent != null) {
+                if (enemyAgent == GameManager.instance.Player) { // damage player
+                    GameManager.instance.DamagePlayer (m_attackDamage);
+                } else {
+                    NPC enemyNPC = enemyAgent.GetComponent<NPC> ();
+                    if (enemyNPC != null) {
+                        enemyNPC.Damage (m_attackDamage);
+                    } else {
+                        enemyAgent.Kill ();
+                    };
+                    enemyNPC.GetComponent<Rigidbody> ().AddForce (m_attachedAgent.transform.forward * m_pushbackForce, ForceMode.Impulse);
+                }
+            }
+        };
     }
     int GetAttackAnimDirection () {
         switch (m_attachedAgent.m_currentFacing) {
@@ -53,13 +66,17 @@ public class Attack : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        if (GameManager.instance.GameState == GameStates.GAME) {
-            m_attachedAgent.animator.SetInteger ("attack_direction", GetAttackAnimDirection ());
-            if (m_useKeyboardToAttack) {
-                if (Input.GetKeyDown (keyCode)) {
-                    AttackForward ();
+        if (m_active) {
+            if (GameManager.instance.GameState == GameStates.GAME) {
+                m_attachedAgent.animator.SetInteger ("attack_direction", GetAttackAnimDirection ());
+                if (m_useKeyboardToAttack) {
+                    if (Input.GetKeyDown (keyCode)) {
+                        AttackForward ();
+                    }
                 }
-            }
-        };
+            };
+        }
+        // If the attached agent is dead, we're no longer active
+        m_active = !m_attachedAgent.m_isDead;
     }
 }
