@@ -15,6 +15,8 @@ public class Attack : MonoBehaviour {
     public bool m_active = true;
     public KeyCode keyCode;
 
+    public FMODUnity.StudioEventEmitter eventEmitter_hit;
+
     private bool m_multiAttackPrevention = false;
     public GameObject m_hitPrefab;
     // Start is called before the first frame update
@@ -54,6 +56,7 @@ public class Attack : MonoBehaviour {
                     NPC enemyNPC = enemyAgent.GetComponent<NPC> ();
                     if (enemyNPC != null) {
                         enemyNPC.Damage (m_attackDamage);
+                        eventEmitter_hit.Play ();
                         if (!enemyAgent.m_isDead) {
                             Vector3 moveDirection = Vector3.right;
                             if (m_attachedAgent.m_currentFacing == Facing.Left || m_attachedAgent.m_currentFacing == Facing.Down) {

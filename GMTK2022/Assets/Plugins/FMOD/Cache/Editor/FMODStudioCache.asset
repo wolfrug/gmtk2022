@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7142761509913767864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/CoolnessUp
+  m_EditorClassIdentifier: 
+  Path: event:/UI/CoolnessUp
+  Guid:
+    Data1: 2052128779
+    Data2: 1076955646
+    Data3: 219731846
+    Data4: 221030093
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7009184193893947306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,7 +80,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 45728
+  Length: 45714
 --- !u!114 &-6965320993396490263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,9 +123,90 @@ MonoBehaviour:
   Path: Assets/FMod/Build/WebGL/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637936148831314065
+  lastModified: 637936735301090684
   FileSizes: []
   Exists: 1
+--- !u!114 &-2064171865152900616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/LiterallyDying
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/LiterallyDying
+  Guid:
+    Data1: -2002642500
+    Data2: 1282720281
+    Data3: -1777181308
+    Data4: 1772922833
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1602739292436404850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/AttackSwish
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/AttackSwish
+  Guid:
+    Data1: -1054228252
+    Data2: 1326607113
+    Data3: -1746879299
+    Data4: -1375979230
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-90889986563243456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/EmbarassmentUp
+  m_EditorClassIdentifier: 
+  Path: event:/UI/EmbarassmentUp
+  Guid:
+    Data1: -2128348531
+    Data2: 1268468364
+    Data3: 792041388
+    Data4: 1067928018
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,13 +226,73 @@ MonoBehaviour:
   - {fileID: -9099734639291573252}
   - {fileID: -6965320993396490263}
   - {fileID: -7009184193893947306}
+  - {fileID: -7142761509913767864}
+  - {fileID: 130286891574637443}
+  - {fileID: 2220648031050750349}
+  - {fileID: -90889986563243456}
+  - {fileID: -2064171865152900616}
+  - {fileID: -1602739292436404850}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6292036529778444312}
   StringsBanks:
   - {fileID: 3444624958573326894}
-  cacheTime: 637936148831324051
+  cacheTime: 637936735301150656
   cacheVersion: 131591
+--- !u!114 &130286891574637443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/AttackHit
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/AttackHit
+  Guid:
+    Data1: -1659443921
+    Data2: 1178959550
+    Data3: -1114521675
+    Data4: 905148805
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2220648031050750349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GroundSwallow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GroundSwallow
+  Guid:
+    Data1: -1711647632
+    Data2: 1166758107
+    Data3: -223351886
+    Data4: -663461692
+  Banks:
+  - {fileID: -6292036529778444312}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3444624958573326894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,8 +308,8 @@ MonoBehaviour:
   Path: Assets/FMod/Build/WebGL/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637936148831324051
+  lastModified: 637936735301150656
   FileSizes:
   - Name: 
-    Value: 878
+    Value: 1168
   Exists: 1

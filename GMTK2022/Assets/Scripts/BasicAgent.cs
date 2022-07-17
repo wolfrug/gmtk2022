@@ -29,6 +29,9 @@ public class BasicAgent : MonoBehaviour {
     public bool m_isDead = false;
 
     public BasicAgentDie m_deathEvent;
+
+    public FMODUnity.StudioEventEmitter m_normalDeathSound;
+    public FMODUnity.StudioEventEmitter m_darkDeathSound;
     private Coroutine autoAction;
     // Start is called before the first frame update
     void Start () {
@@ -104,6 +107,15 @@ public class BasicAgent : MonoBehaviour {
         navMeshAgent.enabled = false;
         m_isDead = true;
         m_deathEvent.Invoke (this);
+        if (GameManager.instance.m_gameIsNormal) {
+            if (m_normalDeathSound != null) {
+                m_normalDeathSound.Play ();
+            };
+        } else {
+            if (m_darkDeathSound != null) {
+                m_darkDeathSound.Play ();
+            };
+        }
     }
     public void Resurrect () {
         animator.SetBool ("dead", false);
